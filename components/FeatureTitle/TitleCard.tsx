@@ -1,29 +1,34 @@
 import cx from 'clsx';
-import { Button, Container, Group, Overlay, Text, Title } from '@mantine/core';
+import { Button, Container, Group, Overlay, Text, Title, Badge } from '@mantine/core';
 import classes from './TitleCard.module.css';
+import Image from 'next/image';
+import PenguinLogo from '../../public/PenguinOnly.svg'
 
 export function TitleCard() {
   return (
     <div className={classes.wrapper}>
 
       <div className={classes.inner}>
-        <Title className={classes.title}>
-          We help you send gifts throughout the year, based to your calendar.
+        <Group w={"100%"} align="center" justify='center'>
+            <Image
+            src={PenguinLogo}
+            height={50}
+            alt="logo"
+            />
+        </Group>
+        <Title className={classes.title} mt={48}>
+          We send gifts to all your friends throughout the year, based to your calendar.
         </Title>
 
-        <Container size={640}>
-          <Text size="lg" className={classes.description}>
-            Build more reliable software with AI companion. AI is also trained to detect lazy
-            developers who do nothing and just complain on Twitter.
+        <Container size={640} mt={48}>
+          <Text size="xl" fw="500" className={classes.description}>
+            GiftKakis is an all-in-one gifting service that helps you schedule and deliver gifts throughout the year.
           </Text>
         </Container>
 
         <Group className={classes.controls}>
           <Button variant="black" size="lg">
-            Sign Up
-          </Button>
-          <Button variant="subtle" size="lg">
-            Contact Us
+            Start Gifting
           </Button>
         </Group>
       </div>

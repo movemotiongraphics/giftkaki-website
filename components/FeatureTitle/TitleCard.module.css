@@ -7,8 +7,8 @@
     justify-content: center;
   
     @media (max-width: $mantine-breakpoint-xs) {
-      padding-top: 80px;
-      padding-bottom: 50px;
+      padding-top: 40px;
+      padding-bottom: 120px;
     }
   }
   
@@ -19,21 +19,18 @@
   }
   
   .title {
-    font-weight: 600;
-    font-size: 64px;
+    font-weight: 500;
+    font-size: 48px;
     letter-spacing: -1px;
     padding-left: var(--mantine-spacing-md);
     padding-right: var(--mantine-spacing-md);
     color: var(--mantine-color-black);
     margin-bottom: var(--mantine-spacing-xs);
     text-align: center;
-    font-family:
-      Greycliff CF,
-      var(--mantine-font-family);
   
     @media (max-width: $mantine-breakpoint-xs) {
-      font-size: 28px;
-      text-align: left;
+      font-size: 34px;
+      text-align: center;
     }
   }
   
@@ -47,7 +44,7 @@
   
     @media (max-width: $mantine-breakpoint-xs) {
       font-size: var(--mantine-font-size-md);
-      text-align: left;
+      text-align: center;
     }
   }
   

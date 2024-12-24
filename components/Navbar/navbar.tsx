@@ -90,18 +90,17 @@ import {
       <Box pb={120}>
         <header className={classes.header}>
           <Group justify="space-between" h="100%">
+          <a href="/">
           <Image
             src={KakiLogo}
             height={20}
             alt="logo"
             />
+          </a>
   
             <Group h="100%" gap={0} visibleFrom="sm">
-              <a href="#" className={classes.link}>
+              <a href="/" className={classes.link}>
                 About
-              </a>
-              <a href="/delivery" className={classes.link}>
-                How it works
               </a>
               <a href="/contact" className={classes.link}>
                 Contact
@@ -110,7 +109,7 @@ import {
   
             <Group visibleFrom="sm">
               <Button radius="xl" variant="subtle">Log in</Button>
-              <Button radius="xl">Sign up</Button>
+              <Button radius="xl">Start Gifting</Button>
             </Group>
   
             <Burger opened={drawerOpened} onClick={toggleDrawer} hiddenFrom="sm" />
@@ -122,7 +121,7 @@ import {
           onClose={closeDrawer}
           size="100%"
           padding="md"
-          title="Navigation"
+          title="GiftKaki"
           hiddenFrom="sm"
           zIndex={1000000}
         >
@@ -132,27 +131,18 @@ import {
             <a href="#" className={classes.link}>
               Home
             </a>
-            <UnstyledButton className={classes.link} onClick={toggleLinks}>
-              <Center inline>
-                <Box component="span" mr={5}>
-                  Features
-                </Box>
-                <IconChevronDown size={16} color={theme.colors.blue[6]} />
-              </Center>
-            </UnstyledButton>
-            <Collapse in={linksOpened}>{links}</Collapse>
-            <a href="#" className={classes.link}>
-              Learn
+            <a href="/contact" className={classes.link}>
+              Contact
             </a>
-            <a href="#" className={classes.link}>
-              Academy
+            <a href="/terms" className={classes.link}>
+              Terms and Conditions
             </a>
   
             <Divider my="sm" />
   
             <Group justify="center" grow pb="xl" px="md">
               <Button variant="default">Log in</Button>
-              <Button>Sign up</Button>
+              <Button>Start Gifting</Button>
             </Group>
           </ScrollArea>
         </Drawer>

@@ -1,0 +1,21 @@
+.hideInMobile {
+    text-align: center;
+    visibility: visible;
+    display: block;
+  
+    @media (max-width: $mantine-breakpoint-sm) {
+      visibility: hidden;
+      display: none;
+    }
+  }
+
+.showInMobile {
+    text-align: center;
+    visibility: hidden;
+    display: none;
+  
+    @media (max-width: $mantine-breakpoint-sm) {
+      visibility: visible;
+      display: block;
+    }
+  }
