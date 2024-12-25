@@ -141,7 +141,7 @@ import {
             <Divider my="sm" />
   
             <Group justify="center" grow pb="xl" px="md">
-              <Button variant="default">Log in</Button>
+              <a href="https://gift-kakis.web.app"><Button variant="default">Get the app</Button></a>
               <a href="https://gift-kakis.web.app"><Button>Start Gifting</Button></a>
             </Group>
           </ScrollArea>

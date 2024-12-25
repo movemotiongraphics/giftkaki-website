@@ -27,9 +27,11 @@ export function TitleCard() {
         </Container>
 
         <Group className={classes.controls}>
+          <a href="https://gift-kakis.web.app">
           <Button variant="black" size="lg">
             Start Gifting
           </Button>
+          </a>
         </Group>
       </div>
     </div>
