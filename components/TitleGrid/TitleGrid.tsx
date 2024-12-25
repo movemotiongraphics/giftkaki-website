@@ -20,6 +20,7 @@ export function TitleGrid() {
             src={VerticalImage}
             alt="VerticalImage"
             style={{ borderRadius: "30px", width: "auto", height: 800 }}
+            quality={80}
             />
         <Stack w={500} justify='center' align="center">
           <Box>
@@ -36,7 +37,7 @@ export function TitleGrid() {
               style={{ borderRadius: "30px", objectFit: "cover" }}
               height={350}
               width={230}
-              quality={100}
+              quality={80}
               />
             <Image
               src={HorizontalImage3}
@@ -44,7 +45,7 @@ export function TitleGrid() {
               style={{ borderRadius: "30px", objectFit: "cover" }}
               height={350}
               width={230}
-              quality={100}
+              quality={80}
               />
           </Group>
         </Stack>

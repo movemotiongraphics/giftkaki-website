@@ -17,6 +17,7 @@ export function Steps() {
                 src={Step1}
                 height={500}
                 alt="step1"
+                quality={80}
                 style={{ borderRadius: "30px", width: "100%", height: "auto" }}
                 />
             </Stack>
@@ -27,6 +28,7 @@ export function Steps() {
                 src={Step2}
                 height={500}
                 alt="step1"
+                quality={80}
                 style={{ borderRadius: "30px", width: "100%", height: "auto" }}
                 />
             </Stack>
@@ -36,6 +38,7 @@ export function Steps() {
                 <Image
                 src={Step3}
                 height={500}
+                quality={80}
                 alt="step1"
                 style={{ borderRadius: "30px", width: "100%", height: "auto" }}
                 />
