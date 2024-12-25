@@ -17,7 +17,7 @@ export function TitleCard() {
             />
         </Group>
         <Title className={classes.title} mt={48}>
-          We send gifts to all your friends throughout the year, based to your calendar.
+          We send gifts to all your friends throughout the year, based on your calendar.
         </Title>
 
         <Container size={640} mt={48}>
