@@ -23,9 +23,11 @@ export default function HomePage() {
         </Stack>
 
         <Group justify='center'>
+          <a href="https://gift-kakis.web.app/">
           <Button variant="black" size="lg">
             Start Gifting
           </Button>
+          </a>
         </Group>
       </Container>
 

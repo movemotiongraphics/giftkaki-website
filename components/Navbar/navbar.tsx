@@ -108,8 +108,8 @@ import {
             </Group>
   
             <Group visibleFrom="sm">
-              <Button radius="xl" variant="subtle">Log in</Button>
-              <Button radius="xl">Start Gifting</Button>
+            <a href="https://gift-kakis.web.app"><Button radius="xl" variant="subtle">Log in</Button></a>
+              <a href="https://gift-kakis.web.app"><Button radius="xl">Start Gifting</Button></a>
             </Group>
   
             <Burger opened={drawerOpened} onClick={toggleDrawer} hiddenFrom="sm" />
@@ -142,7 +142,7 @@ import {
   
             <Group justify="center" grow pb="xl" px="md">
               <Button variant="default">Log in</Button>
-              <Button>Start Gifting</Button>
+              <a href="https://gift-kakis.web.app"><Button>Start Gifting</Button></a>
             </Group>
           </ScrollArea>
         </Drawer>
