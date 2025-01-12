@@ -6,8 +6,8 @@ import { Steps } from '../components/Steps/Steps';
 import { Footer } from '../components/Footer/Footer';
 import Image from "next/image";
 
-import vendorImage1 from "/public/Vendor1.png"
-import vendorImage2 from "/public/Vendor2.png"
+import VendorImage1 from "../public/ImageVendor1.png"
+import VendorImage2 from "../public/ImageVendor2.png"
 
 export default function About() {
   return (
@@ -34,14 +34,14 @@ export default function About() {
                 </Title>
                 <Group mb={24} content="center" justify='center'>
                   <Image
-                  src={vendorImage1}
+                  src={VendorImage1}
                   height={300}
                   quality={80}
                   alt="vendorimage1"
                   style={{ borderRadius: "20px", width: "45%", height: "auto" }}
                   />
                   <Image
-                  src={vendorImage2}
+                  src={VendorImage2}
                   height={300}
                   quality={80}
                   alt="vendorimage2"
