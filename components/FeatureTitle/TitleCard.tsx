@@ -3,6 +3,7 @@ import { Button, Container, Group, Overlay, Text, Title, Badge } from '@mantine/
 import classes from './TitleCard.module.css';
 import Image from 'next/image';
 import PenguinLogo from '../../public/PenguinOnly.svg'
+import { FaApple, FaGooglePlay } from "react-icons/fa";
 
 export function TitleCard() {
   return (
@@ -17,19 +18,24 @@ export function TitleCard() {
             />
         </Group>
         <Title className={classes.title} mt={48}>
-          We send gifts to all your friends throughout the year, based on your calendar.
+          Send gifts to all your friends throughout the year, based on your calendar.
         </Title>
 
         <Container size={640} mt={48}>
           <Text size="xl" fw="500" className={classes.description}>
-            GiftKakis is an all-in-one gifting service that helps you schedule and deliver gifts throughout the year.
+            GiftKakis is an all-in-one gifting service, that helps you plan and deliver gifts throughout the year. Now everyone gets to send gifts on time.
           </Text>
         </Container>
 
         <Group className={classes.controls}>
           <a href="https://gift-kakis.web.app">
-          <Button variant="black" size="lg">
-            Start Gifting
+          <Button variant="black" size="lg" radius="xl">
+            Start Gifting on Web
+          </Button>
+          </a>
+          <a href="https://gift-kakis.web.app">
+          <Button variant="outline" size="lg" radius="xl">
+            Download our App <Group ml={8} gap={4}><FaGooglePlay size={16}/> <FaApple  size={16}/></Group>
           </Button>
           </a>
         </Group>

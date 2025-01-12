@@ -13,7 +13,7 @@ export default function HomePage() {
         <TitleCard></TitleCard>
         
         <Stack py={50} align="center">
-          <Title order={3} c="pink">Send your gifts in 3 steps</Title>
+          <Title order={3} c="pink">Send your gifts in 3 steps...</Title>
           <Steps></Steps>
         </Stack>
 
