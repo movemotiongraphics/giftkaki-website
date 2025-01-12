@@ -35,7 +35,7 @@ export default function Contact() {
               <div>
                 <Group wrap="nowrap" maw={400}>
                 <Avatar
-                  src='/Dan.jpg'
+                  src='/dan.jpg'
                   size={128}
                   radius="md"
                 />
