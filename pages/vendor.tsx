@@ -6,9 +6,8 @@ import { Steps } from '../components/Steps/Steps';
 import { Footer } from '../components/Footer/Footer';
 import Image from "next/image";
 
-
-import vendorImage1 from "../../public/Vendor1.png"
-import vendorImage2 from "../../public/Vendor2.png"
+import vendorImage1 from "../public/Vendor1.png"
+import vendorImage2 from "../public/Vendor2.png"
 
 export default function About() {
   return (
