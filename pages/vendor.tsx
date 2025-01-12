@@ -19,7 +19,7 @@ export default function About() {
         <Stack maw={800} justify="center">
             <Group justify='center'>
                 <Title mt={48} c="pink">
-                Sell your product in GiftKakis
+                Sell your product in GiftKakis!
                 </Title>
             </Group>
 
