@@ -7,8 +7,8 @@ import { Footer } from '../components/Footer/Footer';
 import Image from "next/image";
 
 
-import vendorImage1 from "../public/Vendor1.png"
-import vendorImage2 from "../public/Vendor2.png"
+import vendorImage1 from "../../public/Vendor1.png"
+import vendorImage2 from "../../public/Vendor2.png"
 
 export default function About() {
   return (
@@ -19,7 +19,7 @@ export default function About() {
         <Stack maw={800} justify="center">
             <Group justify='center'>
                 <Title mt={48} c="pink">
-                Sell your product in GiftKakis!
+                Sell your product in GiftKakis
                 </Title>
             </Group>
 
