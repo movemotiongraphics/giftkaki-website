@@ -10,7 +10,7 @@ export default function Terms() {
     <>
       <Navbar></Navbar>
       <Container maw={1000}>
-        <Stack>
+        <Stack mb={24}>
             <Group justify='center'>
                 <Title mt={48} c="pink">
                 Terms and Conditions
@@ -288,9 +288,9 @@ export default function Terms() {
             </Group>
         </Stack>
 
-        <Stack>
+        <Stack mb={24}>
             <Group justify='center'>
-                <Title mt={48}>
+                <Title mt={48} c="pink">
                 Vendor Terms and Conditions
                 </Title>
             </Group>
