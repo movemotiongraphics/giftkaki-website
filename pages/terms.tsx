@@ -310,7 +310,7 @@ export default function Terms() {
               </Accordion.Control>
               <Accordion.Panel>
                 <Text>
-                  By registering as a vendor on [Platform Name] ("Platform"), you agree to be bound by these 
+                  By registering as a vendor on GiftKakis ("Platform"), you agree to be bound by these 
                   Terms and Conditions ("Terms"). Please read them carefully before proceeding with registration.
                 </Text>
               </Accordion.Panel>
@@ -321,7 +321,7 @@ export default function Terms() {
                 <Text fw={700}>2. Vendor Registration</Text>
               </Accordion.Control>
               <Accordion.Panel>
-                <Stack spacing="md">
+                <Stack gap="md">
                   <Box>
                     <Text fw={600}>2.1 Requirements</Text>
                     <List spacing="xs" mt="xs">
@@ -341,7 +341,7 @@ export default function Terms() {
                 <Text fw={700}>3. Product Listings</Text>
               </Accordion.Control>
               <Accordion.Panel>
-                <Stack spacing="md">
+                <Stack gap="md">
                   <Box>
                     <Text fw={600}>3.1 Listing Requirements</Text>
                     <List spacing="xs" mt="xs">
@@ -387,12 +387,12 @@ export default function Terms() {
                 <Text fw={700}>5. Fees and Payments</Text>
               </Accordion.Control>
               <Accordion.Panel>
-                <Stack spacing="md">
+                <Stack gap="md">
                   <Box>
                     <Text fw={600}>5.1 Platform Fees</Text>
                     <List spacing="xs" mt="xs">
-                      <List.Item>Commission per successful transaction: [X]%</List.Item>
-                      <List.Item>Payment processing fees: [X]%</List.Item>
+                      <List.Item>Commission per successful transaction: 10%</List.Item>
+                      <List.Item>Payment processing fees: 2%</List.Item>
                       <List.Item>Additional service fees as applicable</List.Item>
                     </List>
                   </Box>
@@ -400,8 +400,8 @@ export default function Terms() {
                   <Box>
                     <Text fw={600}>5.2 Payment Terms</Text>
                     <List spacing="xs" mt="xs">
-                      <List.Item>Payments processed within [X] business days</List.Item>
-                      <List.Item>Minimum payout threshold: [Amount]</List.Item>
+                      <List.Item>Payments processed within 15 business days</List.Item>
+                      <List.Item>Minimum payout threshold: $500</List.Item>
                       <List.Item>All applicable taxes are your responsibility</List.Item>
                     </List>
                   </Box>
@@ -417,7 +417,7 @@ export default function Terms() {
                 <Text fw={600}>6.1 Vendor Obligations</Text>
                 <List spacing="xs" mt="xs">
                   <List.Item>Respond to customer inquiries within 24 hours</List.Item>
-                  <List.Item>Maintain a satisfaction rating of at least [X]%</List.Item>
+                  <List.Item>Maintain a satisfaction rating of at least 80%</List.Item>
                   <List.Item>Comply with all applicable laws and regulations</List.Item>
                   <List.Item>Follow platform guidelines for content and communication</List.Item>
                 </List>
@@ -429,7 +429,7 @@ export default function Terms() {
                 <Text fw={700}>7. Cancellation and Termination</Text>
               </Accordion.Control>
               <Accordion.Panel>
-                <Stack spacing="md">
+                <Stack gap="md">
                   <Box>
                     <Text fw={600}>7.1 Platform Rights</Text>
                     <List spacing="xs" mt="xs">
@@ -440,7 +440,7 @@ export default function Terms() {
                   </Box>
                   
                   <Text>
-                    7.2 Vendors may terminate their account with [X] days written notice, subject to 
+                    7.2 Vendors may terminate their account with 15 days written notice, subject to 
                     completing all pending orders.
                   </Text>
                 </Stack>
@@ -482,8 +482,8 @@ export default function Terms() {
               <Accordion.Panel>
                 <Text fw={600}>10.1 Terms Modifications</Text>
                 <List spacing="xs" mt="xs">
-                  <List.Item>[X] days notice for minor changes</List.Item>
-                  <List.Item>[X] days notice for material changes</List.Item>
+                  <List.Item>15 days notice for minor changes</List.Item>
+                  <List.Item>15 days notice for material changes</List.Item>
                   <List.Item>Continued use constitutes acceptance of modified terms</List.Item>
                 </List>
               </Accordion.Panel>
@@ -495,7 +495,7 @@ export default function Terms() {
               </Accordion.Control>
               <Accordion.Panel>
                 <Text>
-                  These terms are governed by the laws of [Jurisdiction], without regard to 
+                  These terms are governed by the laws of Singapore, without regard to 
                   conflicts of law principles.
                 </Text>
               </Accordion.Panel>
@@ -508,7 +508,7 @@ export default function Terms() {
               <Accordion.Panel>
                 <Text>
                   For questions regarding these terms, contact:
-                  [Platform Legal Department Contact Information]
+                  admin@giftkakis.com
                 </Text>
               </Accordion.Panel>
             </Accordion.Item>
