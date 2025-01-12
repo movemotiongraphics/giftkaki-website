@@ -41,7 +41,7 @@ export default function About() {
             </Stack>
             
             <Stack justify="center" align="center" mt={48}>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdnEpE6emsFz75RAgz--jCwVRB4Wkz76YAyWfkKwun-O6DkGQ/viewform?usp=dialog">
+            <a href="https://gift-kakis.web.app/vendor/register">
             <Button radius="xl" size="lg">
               Sign Up as Vendor
             </Button>

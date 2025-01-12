@@ -30,7 +30,7 @@ export default function Terms() {
               </Accordion.Control>
               <Accordion.Panel>
                 <Text>
-                  By accessing and using the services provided by [Company Name] ("we," "us," or "our"), 
+                  By accessing and using the services provided by GiftKakis ("we," "us," or "our"), 
                   you agree to be bound by these Terms and Conditions ("Terms"). If you do not agree to 
                   these Terms, please do not use our services.
                 </Text>
@@ -416,7 +416,7 @@ export default function Terms() {
               <Accordion.Panel>
                 <Text fw={600}>6.1 Vendor Obligations</Text>
                 <List spacing="xs" mt="xs">
-                  <List.Item>Respond to customer inquiries within 24 hours</List.Item>
+                  <List.Item>Respond to customer inquiries within 72 hours</List.Item>
                   <List.Item>Maintain a satisfaction rating of at least 80%</List.Item>
                   <List.Item>Comply with all applicable laws and regulations</List.Item>
                   <List.Item>Follow platform guidelines for content and communication</List.Item>
