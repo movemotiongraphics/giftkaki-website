@@ -23,9 +23,9 @@ export default function Contact() {
                 </Title>
             </Group>
         </Stack>
-        <Stack maw={600} content="center" align="center">
-            <Group justify='center'>
-                <Text fz="xl">
+        <Stack maw={600}>
+            <Group>
+                <Text fz="xl" ta="center">
                   GiftKakis is run by a small team based out of Singapore.
                 </Text>
             </Group>
@@ -44,11 +44,11 @@ export default function Contact() {
                     Resident Kaki
                     </Text>
 
-                    <Text content="left" fz="lg" fw={500}>
+                    <Text ta="left" fz="lg" fw={500}>
                       Daniel
                     </Text>
 
-                    <Text content="left" fz="md" c="gray" fw={500}>
+                    <Text ta="left" fz="md" c="gray" fw={500}>
                       The general question guy who also made the whole app.
                     </Text>
 
@@ -73,11 +73,11 @@ export default function Contact() {
                       Resident Kaki
                     </Text>
 
-                    <Text content="left" fz="lg" fw={500}>
+                    <Text ta="left" fz="lg" fw={500}>
                       YJ
                     </Text>
 
-                    <Text content="left" fz="md" c="gray" fw={500}>
+                    <Text ta="left" fz="md" c="gray" fw={500}>
                       Product designer and hardworking guy who designed the penguin.
                     </Text>
 
@@ -102,11 +102,11 @@ export default function Contact() {
                       Resident Kaki
                     </Text>
 
-                    <Text content="left" fz="lg" fw={500}>
+                    <Text ta="left" fz="lg" fw={500}>
                       Jun
                     </Text>
 
-                    <Text content="left" fz="md" c="gray" fw={500}>
+                    <Text ta="left" fz="md" c="gray" fw={500}>
                       Casually an engineer and also an ops guy.
                     </Text>
 
@@ -131,11 +131,11 @@ export default function Contact() {
                       Resident Kaki
                     </Text>
 
-                    <Text content="left" fz="lg" fw={500}>
+                    <Text ta="left" fz="lg" fw={500}>
                       Maybe you?
                     </Text>
 
-                    <Text content="left" fz="md" c="gray" fw={500}>
+                    <Text ta="left" fz="md" c="gray" fw={500}>
                       Join our team in helping make gifting more efficient.
                     </Text>
 

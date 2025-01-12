@@ -11,6 +11,8 @@ import {
     Anchor,
     Box,
     Burger,
+    Stack,
+    Badge,
     Button,
     Center,
     Collapse,
@@ -40,20 +42,27 @@ import {
       <Box pb={120}>
         <header className={classes.header}>
           <Group justify="space-between" h="100%">
-          <a href="/">
-          <Image
-            src={KakiLogo}
-            height={20}
-            alt="logo"
-            />
-          </a>
-  
+
             <Group h="100%" gap={0} visibleFrom="sm">
+            <Group mr={24}>
+              <a href="/">
+              <Image
+                src={KakiLogo}
+                height={20}
+                alt="logo"
+                />
+              </a>
+            </Group>
+            
               <a href="/about" className={classes.link}>
-                About
+                <Text size='md' fw={500}>About</Text>
               </a>
               <a href="/contact" className={classes.link}>
-                Contact
+                <Text size='md' fw={500}>Contact</Text>
+              </a>
+              <a href="/vendor" className={classes.link}>
+                <Text size='md' mr={8} fw={500}>Vendors</Text>
+                <Badge color="pink" size="xs">Sell!</Badge>
               </a>
             </Group>
   
@@ -78,22 +87,23 @@ import {
           <ScrollArea h="calc(100vh - 80px" mx="-md">
             <Divider my="sm" />
   
-            <a href="#" className={classes.link}>
-              Home
-            </a>
-            <a href="/contact" className={classes.link}>
-              Contact
-            </a>
-            <a href="/terms" className={classes.link}>
-              Terms and Conditions
-            </a>
+            <a href="/about" className={classes.link}>
+                <Text size='md' fw={500}>About</Text>
+              </a>
+              <a href="/contact" className={classes.link}>
+                <Text size='md' fw={500}>Contact</Text>
+              </a>
+              <a href="/vendor" className={classes.link}>
+                <Text size='md' mr={8} fw={500}>Vendors</Text>
+                <Badge color="pink" size="xs">Sell!</Badge>
+              </a>
   
             <Divider my="sm" />
   
-            <Group justify="center" grow pb="xl" px="md">
+            <Stack justify="center" pb="xl" px="md">
               <a href="https://gift-kakis.web.app"><Button variant="default">Get the app</Button></a>
               <a href="https://gift-kakis.web.app"><Button>Start Gifting</Button></a>
-            </Group>
+            </Stack>
           </ScrollArea>
         </Drawer>
       </Box>

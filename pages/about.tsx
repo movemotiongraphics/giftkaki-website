@@ -19,8 +19,8 @@ export default function About() {
                 </Title>
             </Group>
 
-            <Group align="center" justify='center' content="center">
-                <Text fz="xl">
+            <Group>
+                <Text fz="xl" ta="center">
                   GiftKakis was started when a group of friends thought it was hard to remember all of our gifting schedule. We decided that it would be easier to aggregate all of our gift schedules together into one calendar, and it seems like it works! Now we're bringing the practice to everyone.
                 </Text>
             </Group>
@@ -29,13 +29,13 @@ export default function About() {
         <Stack pt={48} maw={800}>
           <Stack>
           <Group justify='center'>
-              <Title mt={48} c="pink">
+              <Title mt={48} c="pink" ta="center">
               The Kakis
               </Title>
           </Group>
           </Stack>
           <Group justify='center'>
-              <Text fz="xl">
+              <Text fz="xl" ta="center">
                 The GiftKakis team is a small and agile team based out of Singapore. So don't hesistate to reach out to us for any form of information, we reply fast!
               </Text>
           </Group>
