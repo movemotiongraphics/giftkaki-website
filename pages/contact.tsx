@@ -7,6 +7,8 @@ import { Footer } from '../components/Footer/Footer';
 import { IconAt, IconPhoneCall } from '@tabler/icons-react';
 
 import ProfPic from '../../public/KakiProfpic.png';
+import Dan from '../../public/Dan.jpg';
+import YJ from '../../public/yj.jpg';
 
 export default function Contact() {
   return (
@@ -29,11 +31,11 @@ export default function Contact() {
             </Group>
         </Stack>
 
-        <Group justify='center' mt={24}>
+        <Group justify='center' gap={48} mt={24}>
               <div>
                 <Group wrap="nowrap" maw={400}>
                 <Avatar
-                  src="/KakiProfpic.png"
+                  src='/Dan.jpg'
                   size={128}
                   radius="md"
                 />
@@ -62,7 +64,7 @@ export default function Contact() {
               <div>
                 <Group wrap="nowrap" maw={400}>
                 <Avatar
-                  src="/KakiProfpic.png"
+                  src='/yj.jpg'
                   size={128}
                   radius="md"
                 />
@@ -76,7 +78,7 @@ export default function Contact() {
                     </Text>
 
                     <Text content="left" fz="md" c="gray" fw={500}>
-                      The designer and hardworking guy who also helps deliver your gifts.
+                      Product designer and hardworking guy who designed the penguin.
                     </Text>
 
                     <Group wrap="nowrap" gap={4} mt={3}>
@@ -87,6 +89,60 @@ export default function Contact() {
                   </Stack>
                 </Group>
               </div>
+
+              <div>
+                <Group wrap="nowrap" maw={400}>
+                <Avatar
+                  src="/KakiProfpic.png"
+                  size={128}
+                  radius="md"
+                />
+                  <Stack gap={0} align="flex-start" content="left">
+                    <Text fz="xs" tt="uppercase" fw={700} c="dimmed">
+                      Resident Kaki
+                    </Text>
+
+                    <Text content="left" fz="lg" fw={500}>
+                      Jun
+                    </Text>
+
+                    <Text content="left" fz="md" c="gray" fw={500}>
+                      Casually an engineer and also an ops guy.
+                    </Text>
+
+                    <Group wrap="nowrap" gap={4} mt={3}>
+                      <Text fz="xs" c="dimmed">
+                        jun@giftkakis.com
+                      </Text>
+                    </Group>
+                  </Stack>
+                </Group>
+              </div>
+
+              <div>
+                <Group wrap="nowrap" maw={400}>
+                <Avatar
+                  src="/KakiProfpic.png"
+                  size={128}
+                  radius="md"
+                />
+                  <Stack gap={0} align="flex-start" content="left">
+                    <Text fz="xs" tt="uppercase" fw={700} c="dimmed">
+                      Resident Kaki
+                    </Text>
+
+                    <Text content="left" fz="lg" fw={500}>
+                      Maybe you?
+                    </Text>
+
+                    <Text content="left" fz="md" c="gray" fw={500}>
+                      Join our team in helping make gifting more efficient.
+                    </Text>
+
+                  </Stack>
+                </Group>
+              </div>
+
             </Group>
         </Stack>
       </Container>
