@@ -12,7 +12,8 @@ export default function Contact() {
   return (
     <>
       <Navbar></Navbar>
-      <Container maw={1000} align="center">
+      <Container maw={1000}>
+      <Stack content="center" align="Center">
         <Stack>
             <Group justify='center'>
                 <Title mt={48} c="pink">
@@ -20,7 +21,7 @@ export default function Contact() {
                 </Title>
             </Group>
         </Stack>
-        <Stack maw={600}>
+        <Stack maw={600} content="center" align="center">
             <Group justify='center'>
                 <Text fz="xl">
                   GiftKakis is run by a small team based out of Singapore.
@@ -45,7 +46,7 @@ export default function Contact() {
                       Daniel
                     </Text>
 
-                    <Text content="left" align="left" fz="md" c="gray" fw={500}>
+                    <Text content="left" fz="md" c="gray" fw={500}>
                       The general question guy who also made the whole app.
                     </Text>
 
@@ -74,7 +75,7 @@ export default function Contact() {
                       YJ
                     </Text>
 
-                    <Text content="left" align="left" fz="md" c="gray" fw={500}>
+                    <Text content="left" fz="md" c="gray" fw={500}>
                       The designer and hardworking guy who also helps deliver your gifts.
                     </Text>
 
@@ -87,7 +88,7 @@ export default function Contact() {
                 </Group>
               </div>
             </Group>
-        
+        </Stack>
       </Container>
 
       <Footer></Footer>

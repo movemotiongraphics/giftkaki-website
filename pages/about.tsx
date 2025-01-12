@@ -11,7 +11,8 @@ export default function About() {
     <>
       <Navbar></Navbar>
       <Container maw={1000} content="center">
-        <Stack maw={800}>
+        <Stack content="center" align="Center">
+        <Stack maw={800} justify="center">
             <Group justify='center'>
                 <Title mt={48} c="pink">
                 Remember and plan gifts ahead
@@ -39,7 +40,7 @@ export default function About() {
               </Text>
           </Group>
         </Stack>
-        
+        </Stack>
       </Container>
 
       <Footer></Footer>
