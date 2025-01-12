@@ -6,6 +6,10 @@ import { Steps } from '../components/Steps/Steps';
 import { Footer } from '../components/Footer/Footer';
 import Image from "next/image";
 
+
+import vendorImage1 from "../public/Vendor1.png"
+import vendorImage2 from "../public/Vendor2.png"
+
 export default function About() {
   return (
     <>
@@ -15,28 +19,47 @@ export default function About() {
         <Stack maw={800} justify="center">
             <Group justify='center'>
                 <Title mt={48} c="pink">
-                Offer your product as a gift
+                Sell your product in GiftKakis
                 </Title>
             </Group>
 
             <Group align="center" justify='center' content="center">
                 <Text fz="xl" ta="center">
-                  As a vendor in GiftKakis, you'll be able to provide gift offerings to our users. GiftKakis curate every vendor in our platform so that each gift is of good quality. If you are a boutique selling flowers, toys to custom cards, we would love to work with you.
+                  As a vendor in GiftKakis, you'll be able to provide gift offerings to our users. This means that you'll receive a payout everytime someone buys your product on our platform.
                 </Text>
             </Group>
 
             <Stack justify='center'>
-                <Title ta='center' order={3} mt={48} c="pink">
-                Kakis and Vendors
+                <Title mb={24} ta='center' order={3} mt={48} c="pink">
+                Why become a vendor?
                 </Title>
-                <Text fz="xl" ta="center">
-                  1. Bring additional customers to your shop.
+                <Group mb={24} content="center" justify='center'>
+                  <Image
+                  src={vendorImage1}
+                  height={300}
+                  quality={80}
+                  alt="vendorimage1"
+                  style={{ borderRadius: "20px", width: "45%", height: "auto" }}
+                  />
+                  <Image
+                  src={vendorImage2}
+                  height={300}
+                  quality={80}
+                  alt="vendorimage2"
+                  style={{ borderRadius: "20px", width: "45%", height: "auto" }}
+                  />
+                </Group>
+                <Text fz="xl" c="gray" ta="center">
+                  Sell anything, from flowers to cards.
                 </Text>
-                <Text fz="xl" ta="center">
-                  2. No additional charges on your side.
+                <Text fz="xl" c="gray" ta="center">
+                  Bring additional customers to your shop.
                 </Text>
-                <Text fz="xl" ta="center">
-                  1. Free delivery islandwide, provided by us.
+                <Text fz="xl" c="gray" ta="center">
+                  No additional charges on your side.
+                </Text>
+                <Text fz="xl" c="gray" ta="center">
+                  Free delivery islandwide, provided by us.
                 </Text>
             </Stack>
             
