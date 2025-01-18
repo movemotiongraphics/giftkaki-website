@@ -49,7 +49,7 @@ export default function Contact() {
                     </Text>
 
                     <Text ta="left" fz="md" c="gray" fw={500}>
-                      The general question guy who also made the whole app. Previously ran a design studio.
+                      The general question guy who also made the whole app. Tries his best to remember gift dates.
                     </Text>
 
                     <Group wrap="nowrap" gap={4} mt={3}>
