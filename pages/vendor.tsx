@@ -55,7 +55,7 @@ export default function About() {
                   Bring additional customers to your shop.
                 </Text>
                 <Text fz="xl" c="gray" ta="center">
-                  No additional charges on your side.
+                  Custom and fair terms for both parties.
                 </Text>
                 <Text fz="xl" c="gray" ta="center">
                   Free delivery islandwide, provided by us.

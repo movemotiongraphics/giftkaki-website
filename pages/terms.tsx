@@ -391,8 +391,8 @@ export default function Terms() {
                   <Box>
                     <Text fw={600}>5.1 Platform Fees</Text>
                     <List spacing="xs" mt="xs">
-                      <List.Item>Commission per successful transaction: 10%</List.Item>
-                      <List.Item>Payment processing fees: 2%</List.Item>
+                      <List.Item>Commission per successful transaction: 15%</List.Item>
+                      <List.Item>Payment processing fees: 1 - 2%</List.Item>
                       <List.Item>Additional service fees as applicable</List.Item>
                     </List>
                   </Box>
@@ -401,7 +401,7 @@ export default function Terms() {
                     <Text fw={600}>5.2 Payment Terms</Text>
                     <List spacing="xs" mt="xs">
                       <List.Item>Payments processed within 15 business days</List.Item>
-                      <List.Item>Minimum payout threshold: $500</List.Item>
+                      <List.Item>Minimum payout threshold: $100</List.Item>
                       <List.Item>All applicable taxes are your responsibility</List.Item>
                     </List>
                   </Box>
