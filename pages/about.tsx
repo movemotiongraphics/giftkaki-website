@@ -36,7 +36,7 @@ export default function About() {
           </Stack>
           <Group justify='center'>
               <Text fz="xl" ta="center">
-                The GiftKakis team is a small and agile team based out of Singapore. So don't hesistate to reach out to us for any form of information, we reply fast!
+                The GiftKakis team is a <a href="/contact">small and agile team</a> based out of Singapore. So don't hesistate to reach out to us for any form of information, we reply fast!
               </Text>
           </Group>
         </Stack>

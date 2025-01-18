@@ -22,15 +22,11 @@ export function Footer() {
         </Group>
 
         <Group gap={0} className={classes.links} justify="flex-end" wrap="nowrap">
-          <ActionIcon size="lg" color="gray" variant="subtle">
-            <IconBrandTwitter size={18} stroke={1.5} />
-          </ActionIcon>
-          <ActionIcon size="lg" color="gray" variant="subtle">
-            <IconBrandYoutube size={18} stroke={1.5} />
-          </ActionIcon>
+          <a href="https://www.instagram.com/giftkakis/">
           <ActionIcon size="lg" color="gray" variant="subtle">
             <IconBrandInstagram size={18} stroke={1.5} />
           </ActionIcon>
+          </a>
         </Group>
       </Container>
     </div>

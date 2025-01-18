@@ -26,7 +26,7 @@ export default function Contact() {
         <Stack maw={600}>
             <Group>
                 <Text fz="xl" ta="center">
-                  GiftKakis is run by a small team based out of Singapore.
+                  GiftKakis is run by a small team based out of Singapore, whom recently graduated from the National University of Singapore.
                 </Text>
             </Group>
         </Stack>
@@ -49,7 +49,7 @@ export default function Contact() {
                     </Text>
 
                     <Text ta="left" fz="md" c="gray" fw={500}>
-                      The general question guy who also made the whole app.
+                      The general question guy who also made the whole app. Previously ran a design studio.
                     </Text>
 
                     <Group wrap="nowrap" gap={4} mt={3}>
@@ -78,7 +78,7 @@ export default function Contact() {
                     </Text>
 
                     <Text ta="left" fz="md" c="gray" fw={500}>
-                      Product designer and hardworking guy who designed the penguin.
+                      Hardworking guy who designed the penguin. Designed products for more than 400,000 users a month.
                     </Text>
 
                     <Group wrap="nowrap" gap={4} mt={3}>
@@ -107,7 +107,7 @@ export default function Contact() {
                     </Text>
 
                     <Text ta="left" fz="md" c="gray" fw={500}>
-                      Casually an engineer and also an ops guy.
+                      Ops. Casually an engineer and also the ops guy.
                     </Text>
 
                     <Group wrap="nowrap" gap={4} mt={3}>
