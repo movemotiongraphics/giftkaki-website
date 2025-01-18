@@ -78,32 +78,40 @@ import {
         <Drawer
           opened={drawerOpened}
           onClose={closeDrawer}
+
           size="100%"
           padding="md"
-          title="GiftKaki"
+          title=''
           hiddenFrom="sm"
           zIndex={1000000}
         >
           <ScrollArea h="calc(100vh - 80px" mx="-md">
-            <Divider my="sm" />
-  
-            <a href="/about" className={classes.link}>
-                <Text size='md' fw={500}>About</Text>
+            <a className={classes.mobileLogo} href="/">
+              <Image
+                src={KakiLogo}
+                height={36}
+                alt="logo"
+                />
+            </a>
+            
+            <Stack mt="xl">
+              <a href="/about" className={classes.link}>
+                <Text size='xl' fw={500}>About</Text>
               </a>
               <a href="/contact" className={classes.link}>
-                <Text size='md' fw={500}>Contact</Text>
+                <Text size='xl' fw={500}>Contact</Text>
               </a>
               <a href="/vendor" className={classes.link}>
-                <Text size='md' mr={8} fw={500}>Vendors</Text>
-                <Badge color="pink" size="xs">Sell!</Badge>
+                <Text size='xl' mr={8} fw={500}>Vendors</Text>
+                <Badge color="pink" size="md">Sell!</Badge>
               </a>
-  
-            <Divider my="sm" />
-  
-            <Stack justify="center" pb="xl" px="md">
-              <a href="https://gift-kakis.web.app"><Button variant="default">Get the app</Button></a>
-              <a href="https://gift-kakis.web.app"><Button>Start Gifting</Button></a>
             </Stack>
+  
+  
+            <Group justify="center" mt="xl" pb="xl" px="md">
+              <a href="https://gift-kakis.web.app"><Button disabled={true} size="lg" radius="xl" variant="default">Get the app</Button></a>
+              <a href="https://gift-kakis.web.app"><Button size="lg" radius="xl" >Start Gifting</Button></a>
+            </Group>
           </ScrollArea>
         </Drawer>
       </Box>

@@ -34,8 +34,8 @@ export function TitleCard() {
           </Button>
           </a>
           <a href="https://gift-kakis.web.app">
-          <Button variant="outline" size="lg" radius="xl">
-            Download our App <Group ml={8} gap={4}><FaGooglePlay size={16}/> <FaApple  size={16}/></Group>
+          <Button disabled={true} variant="outline" size="lg" radius="xl">
+            Download our App <Badge ml="sm" variant="light" color="pink">Soon!</Badge>
           </Button>
           </a>
         </Group>

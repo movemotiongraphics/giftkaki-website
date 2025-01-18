@@ -4,6 +4,9 @@
     padding-right: var(--mantine-spacing-md);
   }
   
+.mobileLogo {
+  padding-left: 12px;
+} 
 .link {
     display: flex;
     align-items: center;
