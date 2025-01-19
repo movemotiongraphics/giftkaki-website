@@ -391,8 +391,8 @@ export default function Terms() {
                   <Box>
                     <Text fw={600}>5.1 Platform Fees</Text>
                     <List spacing="xs" mt="xs">
-                      <List.Item>Commission per successful transaction: 15%</List.Item>
-                      <List.Item>Payment processing fees: 1 - 2%</List.Item>
+                      <List.Item>Commission per successful transaction: 12%</List.Item>
+                      <List.Item>Payment processing fees: 1 - 2% depending on payment method</List.Item>
                       <List.Item>Additional service fees as applicable</List.Item>
                     </List>
                   </Box>
