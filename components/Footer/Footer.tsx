@@ -19,6 +19,9 @@ export function Footer() {
         <a href="/terms" className={classes.link}>
           Terms and Conditions
         </a>
+        <a href="/account" className={classes.link}>
+          Account Management
+        </a>
         </Group>
 
         <Group gap={0} className={classes.links} justify="flex-end" wrap="nowrap">
