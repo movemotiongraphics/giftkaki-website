@@ -54,7 +54,7 @@ export default function Contact() {
 
                     <Group wrap="nowrap" gap={4} mt={3}>
                       <Text fz="xs" c="dimmed">
-                        daniel@giftkakis.com
+                        admin@giftkakis.com
                       </Text>
                     </Group>
                   </Stack>
