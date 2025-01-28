@@ -426,7 +426,7 @@ export default function Terms() {
 
             <Accordion.Item value="cancellation">
               <Accordion.Control>
-                <Text fw={700}>7. Cancellation and Termination</Text>
+                <Text fw={700}>7. Cancellation, Termination and Refunds.</Text>
               </Accordion.Control>
               <Accordion.Panel>
                 <Stack gap="md">
@@ -443,6 +443,14 @@ export default function Terms() {
                     7.2 Vendors may terminate their account with 15 days written notice, subject to 
                     completing all pending orders.
                   </Text>
+
+                  <Box>
+                    <Text fw={600}>7.3 Platform Rights</Text>
+                    <List spacing="xs" mt="xs">
+                      <List.Item>If user has not confirmed the order (order is pending), a full refund will be given as it is assumed that the vendor has not started working on the gift.</List.Item>
+                      <List.Item>If user has confirmed the order, and vendor has started preparing, a 50% refund will be given to the vendor.</List.Item>
+                    </List>
+                  </Box>
                 </Stack>
               </Accordion.Panel>
             </Accordion.Item>
