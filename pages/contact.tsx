@@ -93,7 +93,7 @@ export default function Contact() {
               <div>
                 <Group wrap="nowrap" maw={400}>
                 <Avatar
-                  src="/KakiProfpic.png"
+                  src="/jun.jpg"
                   size={128}
                   radius="md"
                 />
