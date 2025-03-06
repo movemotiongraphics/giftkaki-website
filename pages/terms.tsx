@@ -310,7 +310,7 @@ export default function Terms() {
               </Accordion.Control>
               <Accordion.Panel>
                 <Text>
-                  By registering as a vendor on GiftKakis ("Platform"), you agree to be bound by these 
+                  By registering as a vendor on Gift Kakis ("Platform"), you agree to be bound by these 
                   Terms and Conditions ("Terms"). Please read them carefully before proceeding with registration.
                 </Text>
               </Accordion.Panel>
@@ -325,13 +325,31 @@ export default function Terms() {
                   <Box>
                     <Text fw={600}>2.1 Requirements</Text>
                     <List spacing="xs" mt="xs">
-                      <List.Item>Be a legally registered business entity</List.Item>
+                      <List.Item>Be a legally registered business entity or individual seller (including home-based businesses)</List.Item>
                       <List.Item>Provide accurate and complete business information</List.Item>
                       <List.Item>Maintain updated contact and payment information</List.Item>
                       <List.Item>Be authorized to sell the products you list</List.Item>
+                      <List.Item>Submit relevant documents based on category (ACRA Registration, Food Hygiene Certification, NRIC Verification)</List.Item>
                     </List>
                   </Box>
-                  <Text>2.2 You are responsible for maintaining the confidentiality of your account credentials.</Text>
+                  
+                  <Box>
+                    <Text fw={600}>2.2 Home-Based Businesses</Text>
+                    <Text>Home-based vendors will be clearly tagged as "Home-Based" on their product listings for transparency.</Text>
+                  </Box>
+                  
+                  <Box>
+                    <Text fw={600}>2.3 Account Security</Text>
+                    <Text>You are responsible for providing accurate information and maintaining the confidentiality of your account credentials.</Text>
+                  </Box>
+                  
+                  <Box>
+                    <Text fw={600}>2.4 Account Usage</Text>
+                    <List spacing="xs" mt="xs">
+                      <List.Item>Vendors may not share their account with others or use another user's account without permission</List.Item>
+                      <List.Item>Vendors are solely responsible for all activities that occur under their account</List.Item>
+                    </List>
+                  </Box>
                 </Stack>
               </Accordion.Panel>
             </Accordion.Item>
@@ -356,11 +374,13 @@ export default function Terms() {
                   <Box>
                     <Text fw={600}>3.2 Prohibited Items</Text>
                     <List spacing="xs" mt="xs">
-                      <List.Item>Counterfeit goods</List.Item>
-                      <List.Item>Illegal items</List.Item>
-                      <List.Item>Expired or damaged products</List.Item>
-                      <List.Item>Items violating third-party intellectual property rights</List.Item>
+                      <List.Item>Illegal or counterfeit goods</List.Item>
+                      <List.Item>Weapons, explosives, and hazardous materials</List.Item>
+                      <List.Item>Tobacco products, controlled drugs, and alcohol</List.Item>
+                      <List.Item>Adult content and explicit materials</List.Item>
+                      <List.Item>Products that violate intellectual property rights</List.Item>
                     </List>
+                    <Text mt="xs">Gift Kakis reserves the right to remove listings that violate platform policies.</Text>
                   </Box>
                 </Stack>
               </Accordion.Panel>
@@ -371,14 +391,44 @@ export default function Terms() {
                 <Text fw={700}>4. Order Fulfillment</Text>
               </Accordion.Control>
               <Accordion.Panel>
-                <Text fw={600}>4.1 Vendor Commitments</Text>
-                <List spacing="xs" mt="xs">
-                  <List.Item>Honor all confirmed orders</List.Item>
-                  <List.Item>Meet scheduled delivery dates</List.Item>
-                  <List.Item>Maintain sufficient inventory</List.Item>
-                  <List.Item>Provide tracking information when applicable</List.Item>
-                  <List.Item>Handle returns and refunds according to platform policy</List.Item>
-                </List>
+                <Stack gap="md">
+                  <Box>
+                    <Text fw={600}>4.1 Vendor Commitments</Text>
+                    <List spacing="xs" mt="xs">
+                      <List.Item>Honor all confirmed orders and ensure timely fulfillment</List.Item>
+                      <List.Item>Maintain sufficient inventory for listed products</List.Item>
+                      <List.Item>Meet scheduled delivery timelines</List.Item>
+                      <List.Item>Provide tracking information when applicable</List.Item>
+                      <List.Item>Respond to orders as soon as possible, within 24 hours</List.Item>
+                    </List>
+                    <Text mt="xs">Vendors who fail to respond to orders in time will receive a warning from Gift Kakis.</Text>
+                  </Box>
+                  
+                  <Box>
+                    <Text fw={600}>4.2 Order Notification Process</Text>
+                    <List spacing="xs" mt="xs">
+                      <List.Item>When an order is placed, vendors will receive order details via WhatsApp, including an accept/reject button</List.Item>
+                      <List.Item>Vendors must confirm or reject the order within the required response time</List.Item>
+                    </List>
+                  </Box>
+                  
+                  <Box>
+                    <Text fw={600}>4.3 Delivery Policy</Text>
+                    <List spacing="xs" mt="xs">
+                      <List.Item>Gift Kakis handles and bears the cost of delivery</List.Item>
+                      <List.Item>Vendors are not responsible for delivery logistics</List.Item>
+                      <List.Item>If Gift Kakis expects late delivery due to unforeseen circumstances, both the vendor and customer will be updated</List.Item>
+                    </List>
+                  </Box>
+                  
+                  <Box>
+                    <Text fw={600}>4.4 Delivery Issues</Text>
+                    <List spacing="xs" mt="xs">
+                      <List.Item>In the event of delivery delays or damages caused by our delivery service, Gift Kakis will take full responsibility</List.Item>
+                      <List.Item>If vendors fail to fulfill an order that is not the fault of Gift Kakis, we will claim the money back from the vendor after issuing a refund to the customer</List.Item>
+                    </List>
+                  </Box>
+                </Stack>
               </Accordion.Panel>
             </Accordion.Item>
 
@@ -391,65 +441,67 @@ export default function Terms() {
                   <Box>
                     <Text fw={600}>5.1 Platform Fees</Text>
                     <List spacing="xs" mt="xs">
-                      <List.Item>Commission per successful transaction: 12%</List.Item>
-                      <List.Item>Payment processing fees: 1 - 2% depending on payment method</List.Item>
-                      <List.Item>Additional service fees as applicable</List.Item>
+                      <List.Item>Commission per successful transaction: 10%</List.Item>
+                      <List.Item>Payment processing fees: 2% (depending on payment method)</List.Item>
+                      <List.Item>Vendors retain 88% of the sale price</List.Item>
                     </List>
                   </Box>
                   
                   <Box>
                     <Text fw={600}>5.2 Payment Terms</Text>
                     <List spacing="xs" mt="xs">
-                      <List.Item>Payments processed within 15 business days</List.Item>
-                      <List.Item>Minimum payout threshold: $100</List.Item>
-                      <List.Item>All applicable taxes are your responsibility</List.Item>
+                      <List.Item>No minimum payout threshold</List.Item>
+                      <List.Item>Payouts are processed almost immediately after deducting commission and transaction fees</List.Item>
+                      <List.Item>Vendors are responsible for providing accurate payment information</List.Item>
+                      <List.Item>All applicable taxes and compliance costs are the vendor's responsibility</List.Item>
                     </List>
                   </Box>
                 </Stack>
               </Accordion.Panel>
             </Accordion.Item>
 
-            <Accordion.Item value="rules">
+            <Accordion.Item value="compliance">
               <Accordion.Control>
-                <Text fw={700}>6. Platform Rules</Text>
+                <Text fw={700}>6. Compliance with Regulations</Text>
               </Accordion.Control>
               <Accordion.Panel>
-                <Text fw={600}>6.1 Vendor Obligations</Text>
+                <Text>Vendors must comply with all applicable Singapore laws, including but not limited to:</Text>
                 <List spacing="xs" mt="xs">
-                  <List.Item>Respond to customer inquiries within 72 hours</List.Item>
-                  <List.Item>Maintain a satisfaction rating of at least 80%</List.Item>
-                  <List.Item>Comply with all applicable laws and regulations</List.Item>
-                  <List.Item>Follow platform guidelines for content and communication</List.Item>
+                  <List.Item>Sale of Goods Act – Vendors must ensure that products sold are of satisfactory quality, fit for purpose, and match their description</List.Item>
+                  <List.Item>Lemon Law – Vendors must be aware of their obligations to provide remedies if products sold are defective</List.Item>
+                  <List.Item>Tax Obligations – Vendors are solely responsible for declaring and paying any applicable taxes on their sales</List.Item>
                 </List>
               </Accordion.Panel>
             </Accordion.Item>
 
             <Accordion.Item value="cancellation">
               <Accordion.Control>
-                <Text fw={700}>7. Cancellation, Termination and Refunds.</Text>
+                <Text fw={700}>7. Cancellation, Termination and Refunds</Text>
               </Accordion.Control>
               <Accordion.Panel>
                 <Stack gap="md">
                   <Box>
-                    <Text fw={600}>7.1 Platform Rights</Text>
+                    <Text fw={600}>7.1 Vendor Responsibilities for Order Cancellations</Text>
                     <List spacing="xs" mt="xs">
-                      <List.Item>Suspend or terminate accounts violating these terms</List.Item>
-                      <List.Item>Remove listings that don't meet standards</List.Item>
-                      <List.Item>Hold payments pending investigation of violations</List.Item>
+                      <List.Item>Refunds are only available during the processing stage of an order (before vendors confirm)</List.Item>
+                      <List.Item>Once all vendors confirm an order, users cannot request a refund</List.Item>
                     </List>
                   </Box>
                   
-                  <Text>
-                    7.2 Vendors may terminate their account with 15 days written notice, subject to 
-                    completing all pending orders.
-                  </Text>
-
+                  <Box>
+                    <Text fw={600}>7.2 Order Rejection</Text>
+                    <Text>Gift Kakis reserves the right to reject orders if users enter invalid details, such as incorrect addresses or phone numbers.</Text>
+                  </Box>
+                  
                   <Box>
                     <Text fw={600}>7.3 Platform Rights</Text>
+                    <Text>Gift Kakis may:</Text>
                     <List spacing="xs" mt="xs">
-                      <List.Item>If user has not confirmed the order (order is pending), a full refund will be given as it is assumed that the vendor has not started working on the gift.</List.Item>
-                      <List.Item>If user has confirmed the order, and vendor has started preparing, a 50% refund will be given to the vendor.</List.Item>
+                      <List.Item>Suspend or terminate accounts violating these terms</List.Item>
+                      <List.Item>Remove listings that fail to meet platform requirements</List.Item>
+                      <List.Item>Hold payments pending investigations of policy violations</List.Item>
                     </List>
+                    <Text mt="xs">Vendors may terminate their account with 15 days written notice, subject to completing all pending orders.</Text>
                   </Box>
                 </Stack>
               </Accordion.Panel>
@@ -460,11 +512,11 @@ export default function Terms() {
                 <Text fw={700}>8. Liability and Insurance</Text>
               </Accordion.Control>
               <Accordion.Panel>
-                <Text fw={600}>8.1 Vendor Requirements</Text>
+                <Text fw={600}>8.1 Vendor Responsibilities</Text>
                 <List spacing="xs" mt="xs">
-                  <List.Item>Maintain appropriate business insurance</List.Item>
-                  <List.Item>Indemnify the platform against claims arising from their products or services</List.Item>
-                  <List.Item>Accept responsibility for product quality and safety</List.Item>
+                  <List.Item>Vendors must maintain appropriate business insurance where applicable</List.Item>
+                  <List.Item>Vendors must indemnify Gift Kakis against claims related to their products and services</List.Item>
+                  <List.Item>Vendors accept full responsibility for product quality and safety</List.Item>
                 </List>
               </Accordion.Panel>
             </Accordion.Item>
@@ -476,9 +528,9 @@ export default function Terms() {
               <Accordion.Panel>
                 <Text fw={600}>9.1 Vendor Obligations</Text>
                 <List spacing="xs" mt="xs">
-                  <List.Item>Handle customer data in compliance with privacy laws</List.Item>
-                  <List.Item>Use customer information only for order fulfillment</List.Item>
-                  <List.Item>Maintain confidentiality of platform data</List.Item>
+                  <List.Item>Vendors must handle customer data in compliance with Singapore privacy laws</List.Item>
+                  <List.Item>Vendors may only use customer data for order fulfillment purposes</List.Item>
+                  <List.Item>Vendors must maintain the confidentiality of platform data and are prohibited from sharing customer information with third parties</List.Item>
                 </List>
               </Accordion.Panel>
             </Accordion.Item>
@@ -490,8 +542,8 @@ export default function Terms() {
               <Accordion.Panel>
                 <Text fw={600}>10.1 Terms Modifications</Text>
                 <List spacing="xs" mt="xs">
-                  <List.Item>15 days notice for minor changes</List.Item>
-                  <List.Item>15 days notice for material changes</List.Item>
+                  <List.Item>15 days notice will be provided for minor changes</List.Item>
+                  <List.Item>15 days notice will be provided for material changes</List.Item>
                   <List.Item>Continued use constitutes acceptance of modified terms</List.Item>
                 </List>
               </Accordion.Panel>
@@ -529,10 +581,9 @@ export default function Terms() {
             understood, and agree to be bound by these Terms and Conditions.
           </Text>
         </Stack>
-      </Paper>
-
-            </Stack>
-            </Group>
+        </Paper>
+        </Stack>
+        </Group>
         </Stack>
         
       </Container>
