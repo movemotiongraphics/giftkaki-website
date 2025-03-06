@@ -575,7 +575,7 @@ export default function Terms() {
           </Accordion>
 
           <Divider />
-          <Text size="md">Last Updated: January 12, 2025</Text>
+          <Text size="md">Last Updated: March 6, 2025</Text>
           <Text size="sm" c="dimmed">
             By registering as a vendor on our Platform, you acknowledge that you have read, 
             understood, and agree to be bound by these Terms and Conditions.
