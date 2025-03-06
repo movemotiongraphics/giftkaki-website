@@ -2,10 +2,10 @@ import { Container, Grid, Group, Stack, Box, Text } from '@mantine/core';
 import Image from "next/image";
 import classes from './TitleGrid.module.css';
 
-import VerticalImage from '../../public/features-vertical.png';
-import HorizontalImage1 from '../../public/features-horizontal-1.png';
-import HorizontalImage2 from '../../public/features-horizontal-2.png';
-import HorizontalImage3 from '../../public/features-horizontal-3.png';
+import VerticalImage from '../../public/FeatureVertical.png';
+import HorizontalImage1 from '../../public/Feature1.png';
+import HorizontalImage2 from '../../public/Feature2.png';
+import HorizontalImage3 from '../../public/Feature3.png';
 
 const PRIMARY_COL_HEIGHT = '800px';
 
@@ -58,19 +58,15 @@ export function TitleGrid() {
       </Text>
 
       <Text size="xl" fw="500" className={classes.description}>
-            Islandwide Delivery in Singapore
+            Doorstep Islandwide Delivery in Singapore
       </Text>
 
       <Text size="xl" fw="500" className={classes.description}>
-            PayNow / PayLah or Card Payments
+            PayNow/PayLah or Card Payments
       </Text>
 
       <Text size="xl" fw="500" className={classes.description}>
-            Pay-as-you-gift
-      </Text>
-
-      <Text size="xl" fw="500" className={classes.description}>
-            Available on both Mobile and Web.
+            Notifications in every step.
       </Text>
     </Container>
   </>

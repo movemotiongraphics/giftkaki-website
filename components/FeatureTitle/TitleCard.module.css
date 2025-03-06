@@ -16,6 +16,14 @@
     position: relative;
     z-index: 1;
     max-width: 1000px;
+
+    @media (max-width: $mantine-breakpoint-md) {
+      max-width: 768px;
+    }
+
+    @media (max-width: $mantine-breakpoint-xs) {
+      max-width: 360px;
+    }
   }
   
   .title {
@@ -43,7 +51,7 @@
     text-align: center;
   
     @media (max-width: $mantine-breakpoint-xs) {
-      font-size: var(--mantine-font-size-md);
+      font-size: 20px;
       text-align: center;
     }
   }

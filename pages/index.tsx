@@ -12,19 +12,19 @@ export default function HomePage() {
       <Container maw={"100%"}>
         <TitleCard></TitleCard>
         
-        <Stack py={50} align="center">
-          <Title order={3} c="pink">Send your gifts in 3 steps...</Title>
+        <Stack align="center">
+          <Title order={3} ta="center" c="pink">Schedule your gifts ahead in 4 steps...</Title>
           <Steps></Steps>
         </Stack>
 
         <Stack py={50} align="center">
-          <Title py={64} >Other features</Title>
+          <Title order={3} py={64} ta="center" c="pink" >Each gift prepared thoroughly, from vendors who care</Title>
           <TitleGrid></TitleGrid>
         </Stack>
 
         <Group justify='center'>
           <a href="https://gift-kakis.web.app/">
-          <Button variant="black" size="lg">
+          <Button radius="xl" variant="black" size="lg">
             Start Gifting
           </Button>
           </a>
