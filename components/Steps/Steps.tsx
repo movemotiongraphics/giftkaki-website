@@ -20,7 +20,7 @@ export function Steps() {
                 quality={100}
                 style={{ borderRadius: "30px", width: "100%", height: "auto" }}
                 />
-                <Text c="gray" size="xl" fw="500" >First, add who you want to send the gifts to.</Text>
+                <Text c="gray" size="xl" ta="center" fw="500" >First, add who you want to send the gifts to.</Text>
             </Stack>
 
             <Stack px={32} align="center" gap={24}>
@@ -31,7 +31,7 @@ export function Steps() {
                 quality={80}
                 style={{ borderRadius: "30px", width: "100%", height: "auto" }}
                 />
-            <Text c="gray" size="xl" fw="500">Secondly, plan ahead on the calendar.</Text>
+            <Text c="gray" size="xl" ta="center" fw="500">Secondly, plan ahead on the calendar.</Text>
             </Stack>
 
             <Stack px={32} align="center" gap={24}>
@@ -42,7 +42,7 @@ export function Steps() {
                 alt="step1"
                 style={{ borderRadius: "30px", width: "100%", height: "auto" }}
                 />
-                <Text c="gray" size="xl" fw="500">Plan your gift selection ahead from more than 10 local vendors.</Text>
+                <Text c="gray" size="xl" ta="center" fw="500">Plan your gift selection ahead from more than 10 local vendors.</Text>
             </Stack>
 
             <Stack px={32} align="center" gap={24}>

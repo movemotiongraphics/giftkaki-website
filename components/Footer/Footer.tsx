@@ -8,7 +8,7 @@ export function Footer() {
   return (
     <div className={classes.footer}>
       <Container className={classes.inner}>
-        <Group>
+        <Group className={classes.footerGroup}>
         <a href="/">
           <Image
             src={KakiLogo}

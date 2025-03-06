@@ -15,6 +15,13 @@
     }
   }
   
+  .footerGroup {
+    @media (max-width: $mantine-breakpoint-xs) {
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
   .links {
     @media (max-width: $mantine-breakpoint-xs) {
       margin-top: var(--mantine-spacing-md);
@@ -32,9 +39,11 @@
     font-weight: 500;
     font-size: var(--mantine-font-size-sm);
   
-    @media (max-width: $mantine-breakpoint-sm) {
+    @media (max-width: $mantine-breakpoint-xs) {
       height: 42px;
       width: 100%;
+      align-items: center;
+      justify-content: center;
     }
   
   }
