@@ -9,6 +9,7 @@ import { IconAt, IconPhoneCall } from '@tabler/icons-react';
 import ProfPic from '../../public/KakiProfpic.png';
 import Dan from '../../public/Dan.jpg';
 import YJ from '../../public/yj.jpg';
+import Jun from '../../public/jun.jpg';
 
 export default function Contact() {
   return (
@@ -93,7 +94,7 @@ export default function Contact() {
               <div>
                 <Group wrap="nowrap" maw={400}>
                 <Avatar
-                  src="/jun.jpg"
+                  src="/junPic.jpg"
                   size={128}
                   radius="md"
                 />
