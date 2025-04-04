@@ -19,6 +19,9 @@ export function Footer() {
         <a href="/terms" className={classes.link}>
           Terms and Conditions
         </a>
+        <a href="/privacy" className={classes.link}>
+          Privacy Policy
+        </a>
         <a href="/account" className={classes.link}>
           Account Management
         </a>
