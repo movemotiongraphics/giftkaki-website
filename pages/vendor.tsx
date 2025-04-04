@@ -83,7 +83,7 @@ export default function About() {
                         />
                       </div>
                       <Group>
-                        <Text fz="lg" fw={500}>Your Shop's Homepage</Text>
+                        <Text fz="lg" fw={500}>Your shop's homepage</Text>
                       </Group>
                       <Text mt="sm" c="dimmed">
                         Get your own shop's homepages for your customers to directly purchase your products. Look at one of our vendor's {" "}
@@ -104,7 +104,7 @@ export default function About() {
                         />
                       </div>
                       <Group>
-                        <Text fz="lg" fw={500}>Plan For Orders Ahead</Text>
+                        <Text fz="lg" fw={500}>Plan for orders ahead</Text>
                       </Group>
                       <Text mt="sm" c="dimmed">
                         Customers who use the calendar can plan orders far ahead, so you'll be able to plan your production ahead of time.
