@@ -21,14 +21,14 @@ export default function About() {
         <Stack content="center" align="Center">
         <Stack maw={800} justify="center">
             <Group justify='center'>
-                <Title mt={48} c="pink">
-                Sell your product in GiftKakis
+                <Title mt={48} c="pink" ta="center">
+                Set up your shop in GiftKakis
                 </Title>
             </Group>
 
             <Group align="center" justify='center' content="center">
                 <Text fz="xl" ta="center">
-                  As a vendor in GiftKakis, you'll be able to provide gift offerings to our users. This means that you'll receive a payout everytime someone buys your product on our platform.
+                  Join more than 10 vendors in GiftKakis to sell your products to our users. Being a vendor includes multiple perks such as islandwide delivery, order management, and more!
                 </Text>
             </Group>
 
@@ -64,10 +64,10 @@ export default function About() {
                         />
                       </div>
                       <Group>
-                        <Text fz="lg" fw={500}>Acquire More Customers</Text>
+                        <Text fz="lg" fw={500}>We'll manage the orders</Text>
                       </Group>
                       <Text mt="sm" c="dimmed">
-                        We'll help bring additional customers to your shop, by cross promoting your products on our platform.
+                        Being on GiftKakis means cross promoting your products on our platform, as more orders come in, we'll handle the logistics.
                       </Text>
                     </Stack>
                   </Paper>
@@ -115,9 +115,9 @@ export default function About() {
             </Stack>
             
             <Stack justify="center" align="center" mt={48} mb={48}>
-              <Title c="pink" order={2} fw={700}>All in One Solution</Title>
+              <Title c="pink" order={2} fw={700}>What else is there?</Title>
               <Text fz="xl" ta="center" maw={700} mt="sm">
-                No more using multiple services. GiftKakis brings everything together in one platform.
+                GiftKakis brings everything together in one platform. No more using multiple services and paying multiple monthly fees. 
               </Text>
               
               <Paper p="xl" radius="md" withBorder mt={32} maw={800} w="100%">
