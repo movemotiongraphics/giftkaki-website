@@ -21,7 +21,7 @@ export default function About() {
         <Stack content="center" align="Center">
         <Stack maw={800} justify="center">
             <Group justify='center'>
-                <Title mt={48} c="pink" ta="center">
+                <Title mt="xl" c="pink" ta="center">
                 Set up your shop in GiftKakis
                 </Title>
             </Group>
@@ -115,7 +115,7 @@ export default function About() {
             </Stack>
             
             <Stack justify="center" align="center" mt={48} mb={48}>
-              <Title c="pink" order={2} fw={700}>What else is there?</Title>
+              <Title c="pink" ta="center" order={2} fw={700}>What else is there?</Title>
               <Text fz="xl" ta="center" maw={700} mt="sm">
                 GiftKakis brings everything together in one platform. No more using multiple services and paying multiple monthly fees. 
               </Text>
@@ -125,80 +125,80 @@ export default function About() {
                   
                   <Group justify="space-between" align="center">
                     <Group>
-                      <ThemeIcon size={48} radius="md" color="pink">
+                      <ThemeIcon size={48} radius="md" color="pink" visibleFrom="sm">
                         <IconShoppingCart size={24} />
                       </ThemeIcon>
                       <div>
-                        <Text fz="lg" fw={600}>Shop Homepage & Order Forms</Text>
-                        <Text fz="sm" c="dimmed">Replaces Stripe, Cococart, Take.app</Text>
+                        <Text fz={{ base: 'md', sm: 'lg' }} fw={600}>Shop Homepage & Order Forms</Text>
+                        <Text fz={{ base: 'xs', sm: 'sm' }} c="dimmed">Replaces Stripe, Cococart, Take.app</Text>
                       </div>
                     </Group>
-                    <Text fz="xl" fw={700}>$10</Text>
+                    <Text fz={{ base: 'lg', sm: 'xl' }} fw={700}>$10</Text>
                   </Group>
                   
                   <Group justify="space-between" align="center">
                     <Group>
-                      <ThemeIcon size={48} radius="md" color="pink">
+                      <ThemeIcon size={48} radius="md" color="pink" visibleFrom="sm">
                         <IconClipboardList size={24} />
                       </ThemeIcon>
                       <div>
-                        <Text fz="lg" fw={600}>Order Management System</Text>
-                        <Text fz="sm" c="dimmed">Replaces Notion, Google Sheets</Text>
+                        <Text fz={{ base: 'md', sm: 'lg' }} fw={600}>Order Management System</Text>
+                        <Text fz={{ base: 'xs', sm: 'sm' }} c="dimmed">Replaces Notion, Google Sheets</Text>
                       </div>
                     </Group>
-                    <Text fz="xl" fw={700}>$15</Text>
+                    <Text fz={{ base: 'lg', sm: 'xl' }} fw={700}>$15</Text>
                   </Group>
 
                   <Group justify="space-between" align="center">
                     <Group>
-                      <ThemeIcon size={48} radius="md" color="pink">
+                      <ThemeIcon size={48} radius="md" color="pink" visibleFrom="sm">
                         <IconTruck size={24} />
                       </ThemeIcon>
                       <div>
-                        <Text fz="lg" fw={600}>Islandwide Gift Delivery</Text>
-                        <Text fz="sm" c="dimmed">Replaces Lalamove, Grab</Text>
+                        <Text fz={{ base: 'md', sm: 'lg' }} fw={600}>Islandwide Gift Delivery</Text>
+                        <Text fz={{ base: 'xs', sm: 'sm' }} c="dimmed">Replaces Lalamove, Grab</Text>
                       </div>
                     </Group>
-                    <Text fz="xl" fw={700}>$20</Text>
+                    <Text fz={{ base: 'lg', sm: 'xl' }} fw={700}>$20</Text>
                   </Group>
 
                   <Group justify="space-between" align="center">
                     <Group>
-                      <ThemeIcon size={48} radius="md" color="pink">
+                      <ThemeIcon size={48} radius="md" color="pink" visibleFrom="sm">
                         <IconAd size={24} />
                       </ThemeIcon>
                       <div>
-                        <Text fz="lg" fw={600}>Platform Advertising</Text>
-                        <Text fz="sm" c="dimmed">Replaces Google Ads, Google Sheets</Text>
+                        <Text fz={{ base: 'md', sm: 'lg' }} fw={600}>Platform Advertising</Text>
+                        <Text fz={{ base: 'xs', sm: 'sm' }} c="dimmed">Replaces Google Ads, Google Sheets</Text>
                       </div>
                     </Group>
-                    <Text fz="xl" fw={700}>$15</Text>
+                    <Text fz={{ base: 'lg', sm: 'xl' }} fw={700}>$15</Text>
                   </Group>
 
                   <Group justify="space-between" align="center">
                     <Group>
-                      <ThemeIcon size={48} radius="md" color="pink">
+                      <ThemeIcon size={48} radius="md" color="pink" visibleFrom="sm">
                         <IconBellRinging size={24} />
                       </ThemeIcon>
                       <div>
-                        <Text fz="lg" fw={600}>Order & Customer Notifications</Text>
-                        <Text fz="sm" c="dimmed">Replaces Whatsapp Business, Telegram Premium</Text>
+                        <Text fz={{ base: 'md', sm: 'lg' }} fw={600}>Order Notifications</Text>
+                        <Text fz={{ base: 'xs', sm: 'sm' }} c="dimmed">Replaces Whatsapp Business</Text>
                       </div>
                     </Group>
-                    <Text fz="xl" fw={700}>$5</Text>
+                    <Text fz={{ base: 'lg', sm: 'xl' }} fw={700}>$5</Text>
                   </Group>
 
                   <Group justify="space-between" align="center">
                     <Group>
-                      <ThemeIcon size={48} radius="md" color="pink">
+                      <ThemeIcon size={48} radius="md" color="pink" visibleFrom="sm">
                         <IconCreditCard size={24} />
                       </ThemeIcon>
                       <div>
-                        <Text fz="lg" fw={600}>Payment Collection</Text>
-                        <Text fz="sm" c="dimmed">Replaces Shopify, Stripe & Lemonsqueezy</Text>
+                        <Text fz={{ base: 'md', sm: 'lg' }} fw={600}>Payment Collection</Text>
+                        <Text fz={{ base: 'xs', sm: 'sm' }} c="dimmed">Replaces Shopify, Stripe & Lemonsqueezy</Text>
                       </div>
                     </Group>
-                    <Text fz="xl" fw={700}>$5</Text>
+                    <Text fz={{ base: 'lg', sm: 'xl' }} fw={700}>$5</Text>
                   </Group>
                   
                   <Divider my="xs" />
@@ -206,21 +206,21 @@ export default function About() {
                   <Group justify="space-between" align="center">
                     <Group>
                       <div>
-                        <Text fz="lg" fw={600} c="dimmed" td="line-through">What You'd Spend Otherwise</Text>
+                        <Text fz={{ base: 'md', sm: 'lg' }} fw={600} c="dimmed" td="line-through">What You'd Spend Otherwise</Text>
                       </div>
                     </Group>
-                    <Text fz="lg" fw={700} c="pink" td="line-through">$70/mo</Text>
+                    <Text fz={{ base: 'md', sm: 'lg' }} fw={700} c="pink" td="line-through">$70/mo</Text>
                   </Group>
                   
                   <Group justify="space-between" align="start">
                     <Group>
                       <div>
-                        <Text fz="lg" fw={600}>Join GiftKakis as Vendor ✨</Text>
+                        <Text fz={{ base: 'md', sm: 'lg' }} fw={600}>Join GiftKakis as Vendor ✨</Text>
                       </div>
                     </Group>
                     <Stack justify="end" gap="0" align="end">
-                      <Text fz="xl" fw={700}>$0/mo</Text>
-                      <Text fz="xs" fw={400}>We only earn when you do!</Text>
+                      <Text fz={{ base: 'lg', sm: 'xl' }} fw={700}>$0/mo</Text>
+                      <Text visibleFrom='lg' fz="xs" fw={400}>We only earn when you do!</Text>
                     </Stack>
   
                   </Group>
