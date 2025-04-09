@@ -32,6 +32,27 @@ const occasionData = {
   }
 };
 
+const categoryData = {
+  'flowers': {
+    title: "Home-based Flowers",
+  },
+  'cakes': {
+    title: "Home-based Cakes",
+  },
+  'tea': {
+    title: "Home-based Tea",
+  },
+  'food': {
+    title: "Home-based Cafe Food",
+  },
+  'beverages': {
+    title: "Home-based Beverages",
+  },
+  'crafts': {
+    title: "Home-based Handcrafted Gifts",
+  }
+};
+
 export function Footer() {
   return (
     <div className={classes.footer}>
@@ -60,13 +81,19 @@ export function Footer() {
             <a href="/account" className={classes.link}>
               Account Management
             </a>
-
-
           </Group>
 
           <Group m={0} p={0}>
             {Object.entries(occasionData).map(([key, value]) => (
               <Link key={key} href={`/gifts-for/${key}`} className={classes.link}>
+                {value.title}
+              </Link>
+            ))}
+          </Group>
+
+          <Group m={0} p={0}>
+            {Object.entries(categoryData).map(([key, value]) => (
+              <Link key={key} href={`/home-based/${key}`} className={classes.link}>
                 {value.title}
               </Link>
             ))}
