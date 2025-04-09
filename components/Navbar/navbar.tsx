@@ -39,7 +39,7 @@ import {
     const theme = useMantineTheme();
   
     return (
-      <Box pb={120}>
+      <Box>
         <header className={classes.header}>
           <Group justify="space-between" h="100%">
 
@@ -62,7 +62,10 @@ import {
               </a>
               <a href="/vendor" className={classes.link}>
                 <Text size='md' mr={8} fw={500}>Vendors</Text>
-                <Badge color="pink" size="xs">Sell!</Badge>
+              </a>
+              <a href="/mothers-day" className={classes.link}>
+                <Text size='md' mr={8} fw={500}>Mother's Day</Text>
+                <Badge color="pink" size="xs">Offer!</Badge>
               </a>
             </Group>
   

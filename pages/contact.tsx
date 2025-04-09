@@ -16,7 +16,7 @@ export default function Contact() {
     <>
       <Navbar></Navbar>
       <Container maw={1000}>
-      <Stack content="center" align="Center">
+      <Stack content="center" my={48} align="Center">
         <Stack>
             <Group justify='center'>
                 <Title mt={48} c="pink">

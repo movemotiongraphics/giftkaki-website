@@ -9,7 +9,7 @@ export default function HomePage() {
   return (
     <>
       <Navbar></Navbar>
-      <Container maw={"100%"}>
+      <Container maw={"100%"} my={48}>
         <TitleCard></TitleCard>
         
         <Stack align="center">

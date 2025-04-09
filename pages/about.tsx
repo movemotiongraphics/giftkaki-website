@@ -10,7 +10,7 @@ export default function About() {
   return (
     <>
       <Navbar></Navbar>
-      <Container maw={1000} content="center">
+      <Container maw={1000} my={48} content="center">
         <Stack content="center" align="Center">
         <Stack maw={800} justify="center">
             <Group justify='center'>

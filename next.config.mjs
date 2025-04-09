@@ -9,4 +9,7 @@ export default withBundleAnalyzer({
   eslint: {
     ignoreDuringBuilds: true,
   },
+  images: {
+    domains: ['firebasestorage.googleapis.com'],
+  },
 });
