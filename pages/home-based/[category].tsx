@@ -39,10 +39,10 @@ const categoryData = {
     keywords: "food hampers singapore, gourmet food delivery, food gift baskets, home based cafe, local food singapore"
   },
   'beverages': {
-    title: "Beverages",
-    description: "Enjoy carefully crafted beverages from Singapore's home-based artisans. Each selection is thoughtfully curated by local experts who pour their passion into every creation. We've carefully selected the finest home-based beverage vendors who understand the art of drink making. Support these talented local artisans and make your gathering special with our reliable delivery service across Singapore.",
-    metaDescription: "Order premium beverages online in Singapore from carefully curated home-based vendors. Choose from craft beers, specialty coffees, and more. Enjoy quality drinks from local gift shops.",
-    keywords: "beverages delivery singapore, craft beer singapore, specialty coffee, home based cafe, local drinks singapore"
+    title: "Coffee",
+    description: "Enjoy carefully crafted Coffee from Singapore's home-based artisans. Each selection is thoughtfully curated by local experts who pour their passion into every creation. We've carefully selected the finest home-based beverage vendors who understand the art of drink making. Support these talented local artisans and make your gathering special with our reliable delivery service across Singapore.",
+    metaDescription: "Order premium Coffee online in Singapore from carefully curated home-based vendors. Choose from craft beers, specialty coffees, and more. Enjoy quality drinks from local gift shops.",
+    keywords: "Coffee delivery singapore, Coffee singapore, specialty coffee, home based cafe, local Coffee singapore"
   },
   'crafts': {
     title: "Handcrafted Gifts",
