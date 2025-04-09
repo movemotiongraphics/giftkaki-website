@@ -91,7 +91,7 @@ export default function MothersDay({ gifts }: MothersDayProps) {
                       )}
                     </div>
                     <Stack gap="xs" p={0}>
-                      <Text fz="lg" fw={500}>{gift.name}</Text>
+                      <Text fz="lg" fw={600}>{gift.name}</Text>
                       <Text fz="md" c="pink">by {gift.vendor}</Text>
                       {gift.leadTime && (
                       <Badge color="pink" variant="light">
@@ -100,12 +100,18 @@ export default function MothersDay({ gifts }: MothersDayProps) {
                          `Available in ${gift.leadTime} days`}
                       </Badge>
                       )}
+
+                      {gift.leadTime && (
+                      <Text fz="xs" c="gray.6">If ordered on {new Date().toLocaleDateString('en-SG', { day: 'numeric', month: 'short', year: 'numeric' })}, expect gift by {new Date(Date.now() + gift.leadTime * 24 * 60 * 60 * 1000).toLocaleDateString('en-SG', { day: 'numeric', month: 'short', year: 'numeric' })}</Text>
+                      )}
                     </Stack>
-                    <Text c="dimmed" lineClamp={3}>{gift.description}</Text>
-                    <Text fw={700}>${gift.price.toFixed(2)}</Text>
-                    <Button component={Link} href={`https://gift-kakis.web.app/`} variant="light" color="pink">
-                      Browse More
-                    </Button>
+                    <Text c="dimmed" lineClamp={2}>{gift.description}</Text>
+                    <Group justify="space-between">
+                      <Text fw={700}>${gift.price.toFixed(2)}</Text>
+                      <Button component={Link} href={`https://gift-kakis.web.app/`} variant="light" radius="md" color="pink">
+                        Browse More
+                      </Button>
+                    </Group>
                   </Stack>
                 </Paper>
               ))}

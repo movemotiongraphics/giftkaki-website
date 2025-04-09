@@ -45,7 +45,7 @@ const occasionData = {
   'housewarming': {
     title: "Housewarming Gift Delivery",
     description: "Welcome them to their new home with thoughtful gifts from Singapore's local artisans. From practical home essentials to decorative pieces, find the perfect housewarming gift that reflects Singapore's unique home culture. Each gift is carefully selected from local vendors who understand the Singaporean home. Make their housewarming special with our reliable same-day delivery service. Start browsing housewarming gifts now!",
-    categories: ['Food', 'Tea', 'Beverages', 'Crafts'],
+    categories: ['Food', 'Tea', 'Beverages', 'Flowers'],
     metaDescription: "Order housewarming gifts online in Singapore. Choose from food, tea, and handcrafted items. Help them celebrate their new home with gifts from local vendors.",
     keywords: "housewarming gifts, housewarming delivery singapore, gift delivery singapore"
   },
@@ -100,7 +100,7 @@ export default function OccasionPage({ occasion, gifts }: OccasionPageProps) {
 
   const filteredGifts = selectedCategory
     ? gifts.filter(gift => gift.category.toLowerCase() === selectedCategory.toLowerCase()).slice(0, 6)
-    : gifts.slice(0, 3);
+    : gifts.slice(0, 6);
 
   // Generate structured data
   const structuredData = {
@@ -168,7 +168,7 @@ export default function OccasionPage({ occasion, gifts }: OccasionPageProps) {
               {occasionInfo.description}
             </Text>
             <Text fz="md" ta="center" c="gray.6" maw={600}>
-              by GiftKakis, updated on 9 Apr 2025.
+              by GiftKakis, updated on {new Date().toLocaleDateString('en-SG', { day: 'numeric', month: 'short', year: 'numeric' })}.
             </Text>
           </Stack>
 
@@ -194,7 +194,7 @@ export default function OccasionPage({ occasion, gifts }: OccasionPageProps) {
                       )}
                     </div>
                     <Stack gap="xs" p={0}>
-                      <Text fz="lg" fw={500}>{gift.name}</Text>
+                      <Text fz="lg" fw={600}>{gift.name}</Text>
                       <Group gap={4}>
                         <Text fz="md" c="pink">by {gift.vendor}</Text>
                         <IconCheck size={16} color="pink" />
@@ -206,12 +206,18 @@ export default function OccasionPage({ occasion, gifts }: OccasionPageProps) {
                          `Available in ${gift.leadTime} days`}
                       </Badge>
                       )}
+
+                      {gift.leadTime && (
+                      <Text fz="xs" c="gray.6">If ordered on {new Date().toLocaleDateString('en-SG', { day: 'numeric', month: 'short', year: 'numeric' })}, expect gift by {new Date(Date.now() + gift.leadTime * 24 * 60 * 60 * 1000).toLocaleDateString('en-SG', { day: 'numeric', month: 'short', year: 'numeric' })}</Text>
+                      )}
                     </Stack>
-                    <Text c="dimmed" lineClamp={3}>{gift.description}</Text>
-                    <Text fw={700}>${gift.price.toFixed(2)}</Text>
-                    <Button component={Link} href={`https://gift-kakis.web.app/`} variant="light" color="pink">
-                      Browse More
-                    </Button>
+                    <Text c="dimmed" lineClamp={2}>{gift.description}</Text>
+                    <Group justify="space-between">
+                      <Text fw={700}>${gift.price.toFixed(2)}</Text>
+                      <Button component={Link} href={`https://gift-kakis.web.app/`} variant="light" radius="md" color="pink">
+                        Browse More
+                      </Button>
+                    </Group>
                   </Stack>
                 </Paper>
               ))}
