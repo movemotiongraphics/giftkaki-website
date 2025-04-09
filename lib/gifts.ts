@@ -12,6 +12,7 @@ export interface Gift {
   category: string;
   vendor: string;
   status: string;
+  leadTime: number;
 }
 
 export async function getMothersDayGifts(): Promise<Gift[]> {
@@ -46,7 +47,8 @@ export async function getMothersDayGifts(): Promise<Gift[]> {
         imageUrl: data.images[0].url,
         category: data.category,
         vendor: data.vendorName,
-        status: data.status
+        status: data.status,
+        leadTime: data.leadTime,
       });
     }
 

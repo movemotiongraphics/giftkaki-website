@@ -193,13 +193,20 @@ export default function OccasionPage({ occasion, gifts }: OccasionPageProps) {
                         <div style={{ height: '100%', backgroundColor: '#e9ecef' }} />
                       )}
                     </div>
-                    <Group gap="xs" p={0}>
+                    <Stack gap="xs" p={0}>
                       <Text fz="lg" fw={500}>{gift.name}</Text>
                       <Group gap={4}>
                         <Text fz="md" c="pink">by {gift.vendor}</Text>
                         <IconCheck size={16} color="pink" />
                       </Group>
-                    </Group>
+                      {gift.leadTime && (
+                      <Badge color="pink" variant="light">
+                        {gift.leadTime === 1 ? "Available next day" : 
+                         gift.leadTime === 2 ? "Available the day after" : 
+                         `Available in ${gift.leadTime} days`}
+                      </Badge>
+                      )}
+                    </Stack>
                     <Text c="dimmed" lineClamp={3}>{gift.description}</Text>
                     <Text fw={700}>${gift.price.toFixed(2)}</Text>
                     <Button component={Link} href={`https://gift-kakis.web.app/`} variant="light" color="pink">

@@ -65,7 +65,7 @@ import {
               </a>
               <a href="/mothers-day" className={classes.link}>
                 <Text size='md' mr={8} fw={500}>Mother's Day</Text>
-                <Badge color="pink" size="xs">Offer!</Badge>
+                <Badge color="pink" size="xs">Free Gift!</Badge>
               </a>
             </Group>
   
