@@ -16,37 +16,37 @@ interface CategoryPageProps {
 const categoryData = {
   'flowers': {
     title: "Flowers",
-    description: "Brighten someone's day with carefully crafted floral arrangements from Singapore's home-based florists. From elegant roses to exotic orchids, each bouquet is thoughtfully designed by local artisans who pour their passion into every creation. We've carefully curated a selection of the finest home-based florists who understand the art of floral design. Support these talented local artisans and make their day special with our reliable delivery service across Singapore.",
+    description: "Brighten someone's day with beautiful flowers from Singapore's home-based florists. From elegant roses and exotic orchids to seasonal blooms, each bouquet is thoughtfully arranged by passionate local artisans. These florists operate from home, offering a carefully curated selection that guarantees quality and creativity. Whether you're celebrating a special moment or sending a thoughtful surprise, our reliable flower delivery service across Singapore ensures your gift arrives fresh and on time.",
     metaDescription: "Order fresh flowers online in Singapore from carefully curated home-based florists. Choose from roses, orchids, and more. Brighten their day with flowers from local gift shops.",
     keywords: "flowers delivery singapore, flower delivery, florist singapore, home based florist, fresh flowers singapore"
   },
   'cakes': {
     title: "Home-baked Cakes",
-    description: "Celebrate with carefully crafted cakes from Singapore's home-based bakeries and pastry shops. From classic chocolate cakes to unique Asian-inspired flavors, each creation is lovingly baked by local artisans who pour their heart into every detail. We've carefully curated a selection of the finest home-based bakers who understand the art of pastry making. Support these talented local artisans and make your celebration special with our reliable delivery service across Singapore.",
+    description: "Celebrate with delightful cakes from Singapore's home-based bakeries and pastry shops. Choose from classic chocolate cakes, fruit-filled delights, or Asian-inspired flavors—all lovingly baked by talented local artisans. Each cake reflects the skill and passion of home-based bakers who take pride in every detail. We've curated only the finest for you, so every order promises taste and quality. With our reliable cake delivery service across Singapore, you can make any celebration extra sweet while supporting the city’s vibrant home-based baking community.",
     metaDescription: "Order fresh cakes online in Singapore from carefully curated home-based bakeries and pastry shops. Choose from chocolate, fruit, and custom cakes. Celebrate with cakes from local bakeries.",
     keywords: "cakes delivery singapore, cake delivery, bakery singapore, home based bakery, pastry shop singapore"
   },
   'tea': {
     title: "Tea",
-    description: "Experience carefully crafted teas from Singapore's home-based tea artisans. From traditional Chinese teas to unique Singaporean blends, each selection is thoughtfully curated by local experts who understand the art of tea making. We've carefully selected the finest home-based tea vendors who pour their passion into every blend. Support these talented local artisans and make your tea time special with our reliable delivery service across Singapore.",
+    description: "Experience the soothing charm of teas from Singapore's home-based tea artisans. Discover traditional Chinese teas, unique Singaporean blends, and premium infusions—all crafted with care by passionate local experts. These tea makers pour their heart into every blend, offering a curated selection that brings quality and character to your cup. Whether you're a seasoned tea lover or a casual sipper, our reliable delivery service across Singapore makes it easy to enjoy artisanal teas from the comfort of your home. Support local tea vendors and elevate your tea time.",
     metaDescription: "Order premium teas online in Singapore from carefully curated home-based tea shops. Choose from Chinese, Singaporean, and international tea blends. Enjoy quality teas from local vendors.",
     keywords: "tea delivery singapore, tea shop singapore, premium tea, home based tea shop, local tea singapore"
   },
   'food': {
     title: "Food",
-    description: "Delight with carefully crafted bites from Singapore's home-based cafes and bakeries. From artisanal snacks to premium ingredients, each selection is thoughtfully curated by local artisans who pour their passion into every creation. We've carefully selected the finest home-based food vendors who understand the art of home baking. Support these talented local artisans and make their day special with our reliable delivery service across Singapore.",
+ description: "Delight in gourmet bites from Singapore's home-based cafes and bakeries. From artisanal snacks to carefully sourced ingredients, each offering is crafted with passion by local food artisans. These home-based vendors bring creativity and quality into every dish, making each bite a treat to remember. We've handpicked the best to ensure a curated selection that’s perfect for gifting or personal indulgence. With our reliable food delivery service across Singapore, you can support home-based talent while enjoying truly delicious moments.",
     metaDescription: "Order gourmet food hampers online in Singapore from carefully curated home-based cafes and bakeries. Choose from snacks, ingredients, and more. Delight with food from local vendors.",
     keywords: "food hampers singapore, gourmet food delivery, food gift baskets, home based cafe, local food singapore"
   },
   'beverages': {
     title: "Coffee",
-    description: "Enjoy carefully crafted Coffee from Singapore's home-based artisans. Each selection is thoughtfully curated by local experts who pour their passion into every creation. We've carefully selected the finest home-based beverage vendors who understand the art of drink making. Support these talented local artisans and make your gathering special with our reliable delivery service across Singapore.",
+ description: "Enjoy premium coffee and drinks from Singapore's home-based beverage artisans. From specialty coffee blends to unique local creations, each beverage is thoughtfully made by passionate drink makers who understand the art of crafting quality refreshments. We've curated a selection of the finest home-based vendors to ensure every cup delivers flavor and satisfaction. With our reliable coffee delivery service across Singapore, you can treat yourself or share the joy of a great drink while supporting local cafés and beverage creators.",
     metaDescription: "Order premium Coffee online in Singapore from carefully curated home-based vendors. Choose from craft beers, specialty coffees, and more. Enjoy quality drinks from local gift shops.",
     keywords: "Coffee delivery singapore, Coffee singapore, specialty coffee, home based cafe, local Coffee singapore"
   },
   'crafts': {
     title: "Handcrafted Gifts",
-    description: "Discover carefully crafted gifts from Singapore's home-based artisans. Each piece is lovingly created by local artisans who pour their heart into every detail. We've carefully curated a selection of the finest home-based crafters who understand the art of handmade excellence. Support these talented local artisans and make their day special with our reliable delivery service across Singapore.",
+ description: "Discover unique handcrafted gifts from Singapore's home-based artisans. Each item—be it pottery, textiles, or handmade décor—is created with care and creativity by local crafters who take pride in their work. We've thoughtfully curated a collection that showcases the best of home-based craftsmanship, bringing one-of-a-kind charm to every gift. With our reliable delivery service across Singapore, it’s easy to share something meaningful and support local talent at the same time.",
     metaDescription: "Order handcrafted gifts online in Singapore from carefully curated home-based artisans. Choose from pottery, textiles, and more. Discover unique gifts from local gift shops.",
     keywords: "handcrafted gifts singapore, local crafts, handmade items, home based gift shop, artisanal gifts singapore"
   }
@@ -89,7 +89,7 @@ export default function CategoryPage({ category, gifts }: CategoryPageProps) {
   return (
     <>
       <Head>
-        <title>Home Based {categoryInfo.title} | GiftKakis Delivery Singapore</title>
+        <title>Top Home Based {categoryInfo.title} | GiftKakis Delivery Singapore</title>
         <meta name="description" content={categoryInfo.metaDescription} />
         <meta name="keywords" content={categoryInfo.keywords} />
         <link rel="canonical" href={canonicalUrl} />
@@ -120,7 +120,7 @@ export default function CategoryPage({ category, gifts }: CategoryPageProps) {
         <Stack justify="center" my={48} align="center">
           <Stack justify="center" align="center" mt={48} mb={64} maw={800}>
             <Title order={1} c="pink" ta="center" fw={700}>
-              {categoryInfo.title} from Home-based Local Singapore Shops.
+              Top Home-based Local {categoryInfo.title} shops in Singapore.
             </Title>
             <Text fz="lg" ta="center" maw={800}>
               {categoryInfo.description}

@@ -168,7 +168,7 @@ export default function OccasionPage({ occasion, gifts }: OccasionPageProps) {
               {occasionInfo.description}
             </Text>
             <Text fz="md" ta="center" c="gray.6" maw={600}>
-              by GiftKakis, updated on {new Date().toLocaleDateString('en-SG', { day: 'numeric', month: 'short', year: 'numeric' })}.
+             Curated by GiftKakis, on {new Date().toLocaleDateString('en-SG', { day: 'numeric', month: 'short', year: 'numeric' })}.
             </Text>
           </Stack>
 

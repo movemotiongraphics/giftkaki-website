@@ -34,22 +34,22 @@ const occasionData = {
 
 const categoryData = {
   'flowers': {
-    title: "Home-based Flowers",
+    title: "Top Home-based Flowers",
   },
   'cakes': {
-    title: "Home-based Cakes",
+    title: "Top Home-based Cakes",
   },
   'tea': {
-    title: "Home-based Tea",
+    title: "Top Home-based Tea",
   },
   'food': {
-    title: "Home-based Cafe Food",
+    title: "Top Home-based Cafe Food",
   },
   'beverages': {
-    title: "Home-based Beverages",
+    title: "Top Home-based Coffee",
   },
   'crafts': {
-    title: "Home-based Handcrafted Gifts",
+    title: "Top Home-based Handcrafted Gifts",
   }
 };
 
