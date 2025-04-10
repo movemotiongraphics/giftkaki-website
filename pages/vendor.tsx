@@ -19,7 +19,7 @@ export default function About() {
       <Navbar></Navbar>
       <Container maw={1000} content="center">
         <Stack content="center" align="Center">
-        <Stack maw={800} justify="center">
+        <Stack maw={800} justify="center" mt={48}>
             <Group justify='center'>
                 <Title mt="xl" c="pink" ta="center">
                 Set up your shop in GiftKakis

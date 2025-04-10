@@ -79,7 +79,7 @@ export default function Contact() {
                     </Text>
 
                     <Text ta="left" fz="md" c="gray" fw={500}>
-                      Hardworking guy who designed the penguin. Designed products for more than 400,000 users a month.
+                      Product and Growth. Hardworking guy who designed the penguin. 
                     </Text>
 
                     <Group wrap="nowrap" gap={4} mt={3}>
@@ -108,14 +108,9 @@ export default function Contact() {
                     </Text>
 
                     <Text ta="left" fz="md" c="gray" fw={500}>
-                      Ops. Casually an engineer and also the ops guy.
+                      Ops and Vendor Success. Casually an engineer.
                     </Text>
 
-                    <Group wrap="nowrap" gap={4} mt={3}>
-                      <Text fz="xs" c="dimmed">
-                        jun@giftkakis.com
-                      </Text>
-                    </Group>
                   </Stack>
                 </Group>
               </div>

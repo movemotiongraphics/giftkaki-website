@@ -106,7 +106,10 @@ import {
               </a>
               <a href="/vendor" className={classes.link}>
                 <Text size='xl' mr={8} fw={500}>Vendors</Text>
-                <Badge color="pink" size="md">Sell!</Badge>
+              </a>
+              <a href="/mothers-day" className={classes.link}>
+                <Text size='xl' mr={8} fw={500}>Mother's Day</Text>
+                <Badge color="pink" size="xs">Free Gift!</Badge>
               </a>
             </Stack>
   
