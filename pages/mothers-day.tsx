@@ -44,20 +44,59 @@ export default function MothersDay({ gifts }: MothersDayProps) {
             {/* Hero Section */}
             <Stack justify="center" align="center" mt={48} mb={64} maw={800}>
             <Title order={1} c="pink" ta="center" fw={700}>
-                6 Mother's Day Gift Ideas from Local Singapore Shops
+               Mother's Day Gift with GiftKakis
             </Title>
+
             <Text fz="lg" ta="center" maw={800}>
                 Finding the perfect gift for Mother's Day? Celebrate mom with thoughtful gifts from Singapore's best home-based vendors. From handcrafted flowers to artisanal cakes, each gift tells a story of local craftsmanship and love.
 
                 Choose from flowers, cakes, and brownies - all delivered across Singapore by GiftKakis.
             </Text>
-            <Text fz="md" ta="center" c="gray.6" maw={600}>
-            by GiftKakis, updated on 9 Apr 2025.
-            </Text>
+           
+                       {/* Campaign Cards */}
+                       <SimpleGrid cols={{ base: 1, sm: 2 }} spacing="xl" w="100%" mt="xl">
+              <Paper p="md" radius="lg" withBorder>
+                <Stack gap="xs">
+                  <Title order={4} c="pink">Like & Tag to Win</Title>
+                  <Text fz="md">
+                    Want to WIN a gift for you and your mom this Mother's Day? 💐
+                  </Text>
+                  <Text fw={500}>How to participate:</Text>
+                  <ul>
+                    <li>Like our post</li>
+                    <li>Follow @giftkakis</li>
+                    <li>Tag 3 friends</li>
+                    <li>(Bonus) Share on IG Stories & tag @giftkakis</li>
+                  </ul>
+                  <Text fw={500}>🎁 Winner receive a gift of their choice from our platform.</Text>
+                  <Text></Text>
+                </Stack>
+              </Paper>
+
+              <Paper p="md" radius="lg" withBorder>
+                <Stack gap="xs">
+                  <Title order={4} c="pink">Buy a gift, Mom gets one too</Title>
+                  <Text fz="md">
+                    Buy a gift for anyone — and your mom might get one too!
+                    3 lucky winners will receive a surprise gift for their mum from GiftKakis 💌
+                  </Text>
+                  <Text mb={0} fw={500}>How to participate:</Text>
+                  <ul>
+                    <li>Head to GiftKakis.com</li>
+                    <li>Buy any gift from our vendors</li>
+                    <li>Purchase between April 16 to May 6</li>
+                    <li>Each gift = 1 entry (multiple purchases allowed)</li>
+                  </ul>
+                  <Text fw={500}>🎁 3 winners receive a gift of their choice from our platform.</Text>
+                  <Text></Text>
+                </Stack>
+              </Paper>
+            </SimpleGrid>
+
 
             </Stack>
             <Button mb={48} component={Link} href="https://gift-kakis.web.app" size="md" radius="xl">
-                Order Now
+                Start Gifting
             </Button>
         </Stack>
 
@@ -67,7 +106,7 @@ export default function MothersDay({ gifts }: MothersDayProps) {
         <Stack mb={64} justify="center" align="center">
         
         <Stack justify="center" align="center" mb={48}>
-            <Title order={3} ta="center" mb="xl">Go Local this Mother's Day with GiftKakis</Title>
+            <Title order={3} ta="center" mb="xl">Go Local with GiftKakis this Mother's Day</Title>
             <Text fz="lg" ta="center" maw={800}>
                 Discover unique Singapore gift items from passionate home-based vendors. Each vendor brings their own special touch to their creations, making every gift a meaningful Singapore gift for Mother's Day.
             </Text>
@@ -156,11 +195,35 @@ export default function MothersDay({ gifts }: MothersDayProps) {
             Don't wait until the last minute. Browse our selection of thoughtful gifts and make this Mother's Day one to remember.
           </Text>
           <Button component={Link} href="https://gift-kakis.web.app" size="lg" radius="xl" mt="xl">
-            Start Shopping Now
+          Start Gifting
           </Button>
 
           <Text fz="xs" mt="xl" ta="center" c="gray.6" maw={600}>
-            *Terms and Conditions: This special offer is limited to a maximum of 3 users who make a purchase between 0000 on 11 Apr and 2359 on 11 May 2025. The free gift can be chosen by the user from our available selection. The free gift may be delivered separately from the original purchase. GiftKakis reserves the right to modify or terminate this offer at any time without prior notice.
+            *Terms and Conditions: 
+            
+            Like & Tag to Win Giveaway:
+            - This giveaway is open to Singapore residents only
+            - Participants must complete all required actions (like post, follow @giftkakis, tag 3 friends) to be eligible
+            - The winner will be randomly selected from all eligible participants
+            - The winner will receive a gift of their choice from our platform
+            - The giveaway ends on May 6, 2025 at 23:59 SGT
+            - The winner will be announced on May 7, 2025 via Instagram Stories
+            - GiftKakis reserves the right to modify or terminate this giveaway at any time without prior notice
+
+            Buy a Gift, Mom Gets One Too Giveaway:
+            - This giveaway is open to Singapore residents only
+            - Participants must make a purchase on GiftKakis.com between April 16, 2025 and May 6, 2025
+            - Each gift purchase equals one entry (multiple purchases allowed)
+            - Three winners will be randomly selected from all eligible participants
+            - Winners will receive a gift of their choice from our platform
+            - The winners will be announced on May 7, 2025 via email
+            - GiftKakis reserves the right to modify or terminate this giveaway at any time without prior notice
+
+            General Terms:
+            - No cash alternatives will be offered
+            - Winners must claim their prizes within 7 days of announcement
+            - GiftKakis's decision is final and no correspondence will be entered into
+            - By participating, you agree to be bound by these terms and conditions
           </Text>
         </Stack>
       </Container>
