@@ -209,6 +209,7 @@ export default function MothersDay({ gifts }: MothersDayProps) {
             - The giveaway ends on May 6, 2025 at 23:59 SGT
             - The winner will be announced on May 7, 2025 via Instagram Stories
             - GiftKakis reserves the right to modify or terminate this giveaway at any time without prior notice
+            - Maximum gift value is $90.
 
             Buy a Gift, Mom Gets One Too Giveaway:
             - This giveaway is open to Singapore residents only
@@ -218,6 +219,7 @@ export default function MothersDay({ gifts }: MothersDayProps) {
             - Winners will receive a gift of their choice from our platform
             - The winners will be announced on May 7, 2025 via email
             - GiftKakis reserves the right to modify or terminate this giveaway at any time without prior notice
+            - Maximum gift value is $90.
 
             General Terms:
             - No cash alternatives will be offered
