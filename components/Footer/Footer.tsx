@@ -36,20 +36,38 @@ const categoryData = {
   'flowers': {
     title: "Top Home-based Flowers",
   },
-  'cakes': {
-    title: "Top Home-based Cakes",
+  'get-well-soon': {
+    title: "Get Well Soon Hampers",
+  },
+  'graduation': {
+    title: "Graduation Bouquets & Gifts",
+  },
+  'mens-gifts': {
+    title: "Gifts for Men",
+  },
+  'housewarming': {
+    title: "Housewarming Gifts",
+  },
+  'matcha': {
+    title: "Matcha Gifts",
   },
   'tea': {
-    title: "Top Home-based Tea",
+    title: "Tea Gifts",
+  },
+  'cafe': {
+    title: "Home-based Cafes",
+  },
+  'coffee': {
+    title: "Coffee Gifts",
+  },
+  'cakes': {
+    title: "Home-baked Cakes",
   },
   'food': {
-    title: "Top Home-based Cafe Food",
-  },
-  'beverages': {
-    title: "Top Home-based Coffee",
+    title: "Food",
   },
   'crafts': {
-    title: "Top Home-based Handcrafted Gifts",
+    title: "Handcrafted Gifts",
   }
 };
 

@@ -121,8 +121,10 @@ export default function OccasionPage({ occasion, gifts }: OccasionPageProps) {
           "offers": {
             "@type": "Offer",
             "price": gift.price,
-            "priceCurrency": "SGD"
-          }
+            "priceCurrency": "SGD",
+            "priceValidUntil": new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString().split('T')[0], // Valid for 30 days
+            "availability": "https://schema.org/InStock"
+          },
         }
       }))
     }
