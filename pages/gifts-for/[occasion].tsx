@@ -229,15 +229,15 @@ export default function OccasionPage({ occasion, gifts }: OccasionPageProps) {
           )}
         </Stack>
 
-                {/* Why Choose Us Section */}
-                <Stack mb={64}>
-          <Title order={3} ta="center" mb="xl">Cheaper Delivery with GiftKakis</Title>
+          {/* Why Choose Us Section */}
+          <Stack mb={64}>
+                <Title order={3} ta="center" mb="xl">Build your own hamper, we'll deliver it</Title>
           <SimpleGrid cols={{ base: 1, sm: 3 }} spacing="xl">
             <Paper p="md" radius="lg" withBorder>
               <Stack align="center" ta="center">
                 <Text fz="xl" fw={700}>🎁</Text>
-                <Text fz="lg" fw={500}>Curated Selection</Text>
-                <Text c="dimmed">Only the best gifts from trusted local vendors</Text>
+                <Text fz="lg" fw={500}>Build your own Hamper</Text>
+                <Text c="dimmed">Only the best gifts from curated local vendors, build your own hamper and we'll deliver it.</Text>
               </Stack>
             </Paper>
             <Paper p="md" radius="lg" withBorder>

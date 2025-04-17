@@ -125,7 +125,7 @@ export default function CategoryPage({ category, gifts }: CategoryPageProps) {
   return (
     <>
       <Head>
-        <title>{`Top Home Based ${categoryInfo.title} | GiftKakis Delivery Singapore`}</title>
+        <title>{`${categoryInfo.title} Delivery Singapore | GiftKakis `}</title>
         <meta name="description" content={categoryInfo.metaDescription} />
         <meta name="keywords" content={categoryInfo.keywords} />
         <link rel="canonical" href={canonicalUrl} />
@@ -223,13 +223,13 @@ export default function CategoryPage({ category, gifts }: CategoryPageProps) {
 
         {/* Why Choose Us Section */}
         <Stack mb={64}>
-          <Title order={3} ta="center" mb="xl">Cheaper Delivery with GiftKakis</Title>
+          <Title order={3} ta="center" mb="xl">Build your own hamper, we'll deliver it</Title>
           <SimpleGrid cols={{ base: 1, sm: 3 }} spacing="xl">
             <Paper p="md" radius="lg" withBorder>
               <Stack align="center" ta="center">
                 <Text fz="xl" fw={700}>🎁</Text>
-                <Text fz="lg" fw={500}>Curated Selection</Text>
-                <Text c="dimmed">Only the best gifts from trusted local vendors</Text>
+                <Text fz="lg" fw={500}>Build your own Hamper</Text>
+                <Text c="dimmed">Only the best gifts from curated local vendors, build your own hamper and we'll deliver it.</Text>
               </Stack>
             </Paper>
             <Paper p="md" radius="lg" withBorder>
@@ -251,9 +251,9 @@ export default function CategoryPage({ category, gifts }: CategoryPageProps) {
 
         {/* CTA Section */}
         <Stack align="center" mb={64}>
-          <Title order={3} ta="center">Find the best {categoryInfo.title} Delivery in Singapore</Title>
+          <Title order={3} ta="center">{categoryInfo.title} gift delivery in Singapore</Title>
           <Text fz="lg" ta="center" maw={800}>
-            Browse our selection of {category} and find the perfect gift for your loved ones.
+            Build your own hamper and find the perfect {categoryInfo.title}  for your loved ones.
           </Text>
           <Button mt={48} component={Link} href="https://gift-kakis.web.app" size="md" radius="xl">
             See More Gifts

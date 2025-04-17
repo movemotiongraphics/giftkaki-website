@@ -39,14 +39,8 @@ const categoryData = {
   'get-well-soon': {
     title: "Get Well Soon Hampers",
   },
-  'graduation': {
-    title: "Graduation Bouquets & Gifts",
-  },
   'mens-gifts': {
     title: "Gifts for Men",
-  },
-  'housewarming': {
-    title: "Housewarming Gifts",
   },
   'matcha': {
     title: "Matcha Gifts",
