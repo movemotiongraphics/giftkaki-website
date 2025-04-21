@@ -32,11 +32,6 @@ export default function MothersDay({ gifts }: MothersDayProps) {
         <meta property="og:url" content="https://giftkakis.com/mothers-day" />
       </Head>
       <Navbar></Navbar>
-      <Paper p="xs" px="md" my="xs" bg="pink.0">
-            <Text fz="md" fw={500} ta="center" c="pink.7">
-            Special Offer: From 11 Apr to 11 May, purchase any gift and get another item for your mom for free!*
-            </Text>
-        </Paper>
 
       <Container maw={1200}>
 
@@ -44,7 +39,7 @@ export default function MothersDay({ gifts }: MothersDayProps) {
             {/* Hero Section */}
             <Stack justify="center" align="center" mt={48} mb={64} maw={800}>
             <Title order={1} c="pink" ta="center" fw={700}>
-               Mother's Day Gift with GiftKakis
+               Mother's Day Gift Delivery
             </Title>
 
             <Text fz="lg" ta="center" maw={800}>
@@ -53,10 +48,10 @@ export default function MothersDay({ gifts }: MothersDayProps) {
                 Choose from flowers, cakes, and brownies - all delivered across Singapore by GiftKakis.
             </Text>
            
-                       {/* Campaign Cards */}
-                       <SimpleGrid cols={{ base: 1, sm: 2 }} spacing="xl" w="100%" mt="xl">
-              <Paper p="md" radius="lg" withBorder>
+            {/* Campaign Cards */}
+              <Paper p="md" radius="lg" withBorder mt="xl" >
                 <Stack gap="xs">
+                <Badge color="pink" variant="light">Mothers Day Event</Badge>
                   <Title order={4} c="pink">Like & Tag to Win</Title>
                   <Text fz="md">
                     Want to WIN a gift for you and your mom this Mother's Day? 💐
@@ -73,29 +68,9 @@ export default function MothersDay({ gifts }: MothersDayProps) {
                 </Stack>
               </Paper>
 
-              <Paper p="md" radius="lg" withBorder>
-                <Stack gap="xs">
-                  <Title order={4} c="pink">Buy a gift, Mom gets one too</Title>
-                  <Text fz="md">
-                    Buy a gift for anyone — and your mom might get one too!
-                    3 lucky winners will receive a surprise gift for their mum from GiftKakis 💌
-                  </Text>
-                  <Text mb={0} fw={500}>How to participate:</Text>
-                  <ul>
-                    <li>Head to GiftKakis.com</li>
-                    <li>Buy any gift from our vendors</li>
-                    <li>Purchase between April 16 to May 6</li>
-                    <li>Each gift = 1 entry (multiple purchases allowed)</li>
-                  </ul>
-                  <Text fw={500}>🎁 3 winners receive a gift of their choice from our platform.</Text>
-                  <Text></Text>
-                </Stack>
-              </Paper>
-            </SimpleGrid>
-
 
             </Stack>
-            <Button mb={48} component={Link} href="https://gift-kakis.web.app" size="md" radius="xl">
+            <Button mb="xl" component={Link} href="https://gift-kakis.web.app" size="md" radius="xl">
                 Start Gifting
             </Button>
         </Stack>
@@ -162,13 +137,13 @@ export default function MothersDay({ gifts }: MothersDayProps) {
 
         {/* Why Choose Us Section */}
         <Stack mb={64}>
-          <Title order={3} ta="center" mb="xl">Cheaper Delivery with GiftKakis</Title>
+          <Title order={3} ta="center" mb="xl">Scheduled Gift Delivery with GiftKakis</Title>
           <SimpleGrid cols={{ base: 1, sm: 3 }} spacing="xl">
             <Paper p="md" radius="lg" withBorder>
               <Stack align="center" ta="center">
                 <Text fz="xl" fw={700}>🎁</Text>
                 <Text fz="lg" fw={500}>Curated Selection</Text>
-                <Text c="dimmed">Only the best gifts from trusted local vendors</Text>
+                <Text c="dimmed">Only the best gifts from trusted local vendors, vetted and curated.</Text>
               </Stack>
             </Paper>
             <Paper p="md" radius="lg" withBorder>
@@ -208,16 +183,6 @@ export default function MothersDay({ gifts }: MothersDayProps) {
             - The winner will receive a gift of their choice from our platform
             - The giveaway ends on May 6, 2025 at 23:59 SGT
             - The winner will be announced on May 7, 2025 via Instagram Stories
-            - GiftKakis reserves the right to modify or terminate this giveaway at any time without prior notice
-            - Maximum gift value is $90.
-
-            Buy a Gift, Mom Gets One Too Giveaway:
-            - This giveaway is open to Singapore residents only
-            - Participants must make a purchase on GiftKakis.com between April 16, 2025 and May 6, 2025
-            - Each gift purchase equals one entry (multiple purchases allowed)
-            - Three winners will be randomly selected from all eligible participants
-            - Winners will receive a gift of their choice from our platform
-            - The winners will be announced on May 7, 2025 via email
             - GiftKakis reserves the right to modify or terminate this giveaway at any time without prior notice
             - Maximum gift value is $90.
 
