@@ -12,4 +12,17 @@ export default withBundleAnalyzer({
   images: {
     domains: ['firebasestorage.googleapis.com'],
   },
+  async headers() {
+    return [
+      {
+        source: '/',
+        headers: [
+          {
+            key: 'Link',
+            value: '<https://giftkakis.com/>; rel="canonical"',
+          },
+        ],
+      },
+    ];
+  },
 });
