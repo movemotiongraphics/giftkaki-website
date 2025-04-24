@@ -23,70 +23,70 @@ const occasionData = {
   },
   'valentines-day': {
     title: "Valentine's Day Gift Delivery",
-    description: "Express your love with thoughtful gifts from Singapore's local vendors. Discover unique Valentine's Day gifts that capture the essence of Singapore's romantic spirit. From handcrafted flowers to artisanal chocolates, each gift tells a story of local craftsmanship and love. Make this Valentine's Day unforgettable with our same-day delivery service across Singapore. Find the perfect romantic gift today!",
+    description: "Express your love with thoughtful gifts from Singapore's local vendors. Discover unique Valentine's Day gifts that capture the essence of Singapore's romantic spirit. From handcrafted flowers to artisanal chocolates, each gift tells a story of local craftsmanship and love. Make this Valentine's Day unforgettable with our delivery service across Singapore. Find the perfect romantic gift today!",
     categories: ['Flowers', 'Tea'],
     metaDescription: "Order Valentine's Day gifts online in Singapore. Choose from flowers, cakes, and more. Express your love with gifts from local vendors.",
     keywords: "valentine's day gifts, valentine's day delivery singapore, flowers delivery singapore, gift delivery singapore, romantic gifts singapore"
   },
   'anniversary': {
     title: "Anniversary Gift Delivery",
-    description: "Celebrate your special day with meaningful gifts from Singapore's local artisans. Whether it's your first anniversary or your golden one, find unique gifts that reflect your journey together. From handcrafted keepsakes to gourmet hampers, each gift is carefully selected from Singapore's best local vendors. Make your anniversary memorable with our reliable same-day delivery service. Start browsing anniversary gifts now!",
+    description: "Celebrate your special day with meaningful gifts from Singapore's local artisans. Whether it's your first anniversary or your golden one, find unique gifts that reflect your journey together. From handcrafted keepsakes to gourmet hampers, each gift is carefully selected from Singapore's best local vendors. Make your anniversary memorable with our reliable delivery service. Start browsing anniversary gifts now!",
     categories: ['Flowers', 'Cakes', 'Crafts'],
     metaDescription: "Order anniversary gifts online in Singapore. Choose from flowers, cakes, and handcrafted items. Celebrate your love with unique gifts from local vendors.",
     keywords: "anniversary gifts, anniversary delivery singapore, flowers delivery singapore, gift delivery singapore"
   },
   'graduation': {
     title: "Graduation Gift Delivery",
-    description: "Congratulate the graduate with thoughtful gifts from Singapore's local vendors. Celebrate their academic achievement with unique gifts that reflect Singapore's educational excellence. From personalized keepsakes to celebratory hampers, each gift is carefully selected from local artisans. Our same-day delivery service ensures your gift arrives right on time for their special day. Browse graduation gifts now!",
+    description: "Congratulate the graduate with thoughtful gifts from Singapore's local vendors. Celebrate their academic achievement with unique gifts that reflect Singapore's educational excellence. From personalized keepsakes to celebratory hampers, each gift is carefully selected from local artisans. Our delivery service ensures your gift arrives right on time for their special day. Browse graduation gifts now!",
     categories: ['Flowers', 'Cakes', 'Crafts'],
     metaDescription: "Order graduation gifts online in Singapore. Choose from cakes, food, and handcrafted items. Celebrate their achievement with gifts from local vendors.",
     keywords: "graduation gifts, graduation delivery singapore, gift delivery singapore, graduation celebration gifts"
   },
   'housewarming': {
     title: "Housewarming Gift Delivery",
-    description: "Welcome them to their new home with thoughtful gifts from Singapore's local artisans. From practical home essentials to decorative pieces, find the perfect housewarming gift that reflects Singapore's unique home culture. Each gift is carefully selected from local vendors who understand the Singaporean home. Make their housewarming special with our reliable same-day delivery service. Start browsing housewarming gifts now!",
+    description: "Welcome them to their new home with thoughtful gifts from Singapore's local artisans. From practical home essentials to decorative pieces, find the perfect housewarming gift that reflects Singapore's unique home culture. Each gift is carefully selected from local vendors who understand the Singaporean home. Make their housewarming special with our reliable delivery service. Start browsing housewarming gifts now!",
     categories: ['Food', 'Tea', 'Beverages', 'Flowers'],
     metaDescription: "Order housewarming gifts online in Singapore. Choose from food, tea, and handcrafted items. Help them celebrate their new home with gifts from local vendors.",
     keywords: "housewarming gifts, housewarming delivery singapore, gift delivery singapore"
   },
   'thank-you': {
     title: "Thank You Gift Delivery",
-    description: "Show your appreciation with thoughtful gifts from Singapore's local vendors. From artisanal hampers to handcrafted items, find the perfect thank you gift that reflects Singapore's culture of gratitude. Each gift is carefully selected from local artisans who put their heart into every creation. Express your gratitude with our reliable same-day delivery service across Singapore. Browse thank you gifts now!",
-    categories: ['Flowers', 'Food', 'Tea', 'Crafts'],
+    description: "Show your appreciation with thoughtful gifts from Singapore's local vendors. From artisanal hampers to handcrafted items, find the perfect thank you gift that reflects Singapore's culture of gratitude. Each gift is carefully selected from local artisans who put their heart into every creation. Express your gratitude with our reliable delivery service across Singapore. Browse thank you gifts now!",
+    categories: ['Flowers', 'Food', 'Tea'],
     metaDescription: "Order thank you gifts online in Singapore. Choose from flowers, food, and handcrafted items. Express your gratitude with gifts from local vendors.",
     keywords: "thank you gifts, thank you delivery singapore, gift delivery singapore, appreciation gifts singapore"
   },
   'new-baby': {
     title: "New Baby Gift Delivery",
-    description: "Welcome the new arrival with thoughtful gifts from Singapore's local vendors. From handcrafted baby items to celebratory hampers, find the perfect gift that reflects Singapore's warm welcome for new families. Each gift is carefully selected from local artisans who understand the needs of new parents. Make their special moment even more memorable with our reliable same-day delivery service. Browse new baby gifts now!",
+    description: "Welcome the new arrival with thoughtful gifts from Singapore's local vendors. From handcrafted baby items to celebratory hampers, find the perfect gift that reflects Singapore's warm welcome for new families. Each gift is carefully selected from local artisans who understand the needs of new parents. Make their special moment even more memorable with our reliable delivery service. Browse new baby gifts now!",
     categories: ['Crafts', 'Food', 'Cakes'],
     metaDescription: "Order new baby gifts online in Singapore. Choose from handmade items, cakes, and food hampers. Celebrate the new addition to the family with gifts from local vendors.",
     keywords: "new baby gifts, baby shower gifts, baby gift delivery singapore"
   },
   'get-well': {
     title: "Get Well Soon Gift Delivery",
-    description: "Send healing wishes with thoughtful gifts from Singapore's local vendors. From comforting hampers to uplifting flowers, find the perfect get well soon gift that reflects Singapore's caring community spirit. Each gift is carefully selected from local artisans who understand the healing power of thoughtful gestures. Brighten their day with our reliable same-day delivery service across Singapore. Browse get well soon gifts now!",
+    description: "Send healing wishes with thoughtful gifts from Singapore's local vendors. From comforting hampers to uplifting flowers, find the perfect get well soon gift that reflects Singapore's caring community spirit. Each gift is carefully selected from local artisans who understand the healing power of thoughtful gestures. Brighten their day with our reliable delivery service across Singapore. Browse get well soon gifts now!",
     categories: ['Flowers', 'Food', 'Tea'],
     metaDescription: "Order get well soon gifts online in Singapore. Choose from flowers, food hampers, and tea. Brighten their day with gifts from local vendors.",
     keywords: "get well soon gifts, recovery gifts, hospital gift delivery singapore, healing gifts singapore"
   },
   'retirement': {
     title: "Retirement Gift Delivery",
-    description: "Celebrate their next chapter with meaningful gifts from Singapore's local artisans. From handcrafted keepsakes to gourmet hampers, find the perfect retirement gift that reflects Singapore's appreciation for lifelong achievements. Each gift is carefully selected from local vendors who understand the significance of this milestone. Make their retirement celebration special with our reliable same-day delivery service. Browse retirement gifts now!",
+    description: "Celebrate their next chapter with meaningful gifts from Singapore's local artisans. From handcrafted keepsakes to gourmet hampers, find the perfect retirement gift that reflects Singapore's appreciation for lifelong achievements. Each gift is carefully selected from local vendors who understand the significance of this milestone. Make their retirement celebration special with our reliable delivery service. Browse retirement gifts now!",
     categories: ['Crafts', 'Tea', 'Food'],
     metaDescription: "Order retirement gifts online in Singapore. Choose from handcrafted items, tea sets, and food hampers. Celebrate their achievements with gifts from local vendors.",
     keywords: "retirement gifts, retirement celebration gifts, gift delivery singapore"
   },
   'promotion': {
     title: "Promotion Gift Delivery",
-    description: "Celebrate their career milestone with thoughtful gifts from Singapore's local vendors. From celebratory hampers to handcrafted items, find the perfect promotion gift that reflects Singapore's professional excellence. Each gift is carefully selected from local artisans who understand the significance of career achievements. Make their promotion celebration special with our reliable same-day delivery service. Browse promotion gifts now!",
+    description: "Celebrate their career milestone with thoughtful gifts from Singapore's local vendors. From celebratory hampers to handcrafted items, find the perfect promotion gift that reflects Singapore's professional excellence. Each gift is carefully selected from local artisans who understand the significance of career achievements. Make their promotion celebration special with our reliable delivery service. Browse promotion gifts now!",
     categories: ['Cakes', 'Food', 'Tea'],
     metaDescription: "Order promotion celebration gifts online in Singapore. Choose from cakes, food hampers, and tea sets. Congratulate them with gifts from local vendors.",
     keywords: "promotion gifts, career celebration gifts, gift delivery singapore, corporate gifts singapore"
   },
   'souvenir': {
     title: "Singapore Souvenir Gift Delivery",
-    description: "Share the essence of Singapore with unique souvenirs from local artisans. From handcrafted Peranakan tiles to Singapore-inspired tea blends, find the perfect souvenir that captures Singapore's rich cultural heritage. Each gift is carefully selected from local vendors who put their heart into creating authentic Singapore mementos. Make your souvenir shopping special with our reliable same-day delivery service across Singapore. Browse Singapore souvenirs now!",
+    description: "Share the essence of Singapore with unique souvenirs from local artisans. From handcrafted Peranakan tiles to Singapore-inspired tea blends, find the perfect souvenir that captures Singapore's rich cultural heritage. Each gift is carefully selected from local vendors who put their heart into creating authentic Singapore mementos. Make your souvenir shopping special with our reliable delivery service across Singapore. Browse Singapore souvenirs now!",
     categories: ['Beverages', 'Tea', 'Food'],
     metaDescription: "Order authentic Singapore souvenirs online. Choose from handcrafted items, local tea blends, and traditional snacks. Share Singapore's culture with gifts from local vendors.",
     keywords: "singapore souvenirs, singapore gifts, local souvenirs singapore, singapore craft gifts, singapore tea gifts"
@@ -133,7 +133,7 @@ export default function OccasionPage({ occasion, gifts }: OccasionPageProps) {
   return (
     <>
       <Head>
-        <title>{occasionInfo.title} | GiftKakis Gift Delivery</title>
+        <title>{occasionInfo.title} - Custom Gift Hampers in Singapore | GiftKakis</title>
         <meta name="description" content={occasionInfo.metaDescription} />
         <meta name="keywords" content={occasionInfo.keywords} />
         <link rel="canonical" href={canonicalUrl} />
@@ -233,25 +233,52 @@ export default function OccasionPage({ occasion, gifts }: OccasionPageProps) {
           <Stack mb={64}>
                 <Title order={3} ta="center" mb="xl">Build your own hamper, we'll deliver it</Title>
           <SimpleGrid cols={{ base: 1, sm: 3 }} spacing="xl">
-            <Paper p="md" radius="lg" withBorder>
+            <Paper p={0} radius="lg" withBorder style={{ overflow: 'hidden' }}>
               <Stack align="center" ta="center">
-                <Text fz="xl" fw={700}>🎁</Text>
-                <Text fz="lg" fw={500}>Build your own Hamper</Text>
-                <Text c="dimmed">Only the best gifts from curated local vendors, build your own hamper and we'll deliver it.</Text>
+                <div style={{ width: '100%', height: '200px', position: 'relative' }}>
+                  <Image
+                    src="/Order-Gifts.png"
+                    alt="GiftKakis Logo"
+                    fill
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
+                <Stack p="md" align="center" ta="center">
+                  <Text fz="lg" fw={500}>Build your own Hamper</Text>
+                  <Text c="dimmed">Only the best gifts from curated local vendors, build your own hamper and we'll deliver it.</Text>
+                </Stack>
               </Stack>
             </Paper>
-            <Paper p="md" radius="lg" withBorder>
+            <Paper p={0} radius="lg" withBorder style={{ overflow: 'hidden' }}>
               <Stack align="center" ta="center">
-                <Text fz="xl" fw={700}>🚚</Text>
-                <Text fz="lg" fw={500}>Islandwide Delivery</Text>
-                <Text c="dimmed">$8 Flat-fee delivery for all orders, no matter the distance</Text>
+                <div style={{ width: '100%', height: '200px', position: 'relative' }}>
+                  <Image
+                    src="/Order-Delivery.png"
+                    alt="GiftKakis Logo"
+                    fill
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
+                <Stack p="md" align="center" ta="center">
+                  <Text fz="lg" fw={500}>Islandwide Delivery</Text>
+                  <Text c="dimmed">$8 Flat-fee delivery for all orders, no matter the distance</Text>
+                </Stack>
               </Stack>
             </Paper>
-            <Paper p="md" radius="lg" withBorder>
+            <Paper p={0} radius="lg" withBorder style={{ overflow: 'hidden' }}>
               <Stack align="center" ta="center">
-                <Text fz="xl" fw={700}>📅</Text>
-                <Text fz="lg" fw={500}>Schedule Ahead</Text>
-                <Text c="dimmed">Plan and schedule deliveries in advance, no need to worry about last-minute delivery</Text>
+                <div style={{ width: '100%', height: '200px', position: 'relative' }}>
+                  <Image
+                    src="/Order-Schedule.png"
+                    alt="GiftKakis Logo"
+                    fill
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
+                <Stack p="md" align="center" ta="center">
+                  <Text fz="lg" fw={500}>Schedule Ahead</Text>
+                  <Text c="dimmed">Plan and schedule deliveries in advance, no need to worry about last-minute delivery</Text>
+                </Stack>
               </Stack>
             </Paper>
           </SimpleGrid>

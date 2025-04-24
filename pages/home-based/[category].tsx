@@ -221,29 +221,56 @@ export default function CategoryPage({ category, gifts }: CategoryPageProps) {
           )}
         </Stack>
 
-        {/* Why Choose Us Section */}
-        <Stack mb={64}>
-          <Title order={3} ta="center" mb="xl">Build your own hamper, we'll deliver it</Title>
+          {/* Why Choose Us Section */}
+          <Stack mb={64}>
+                <Title order={3} ta="center" mb="xl">Build your own hamper, we'll deliver it</Title>
           <SimpleGrid cols={{ base: 1, sm: 3 }} spacing="xl">
-            <Paper p="md" radius="lg" withBorder>
+            <Paper p={0} radius="lg" withBorder style={{ overflow: 'hidden' }}>
               <Stack align="center" ta="center">
-                <Text fz="xl" fw={700}>🎁</Text>
-                <Text fz="lg" fw={500}>Build your own Hamper</Text>
-                <Text c="dimmed">Only the best gifts from curated local vendors, build your own hamper and we'll deliver it.</Text>
+                <div style={{ width: '100%', height: '200px', position: 'relative' }}>
+                  <Image
+                    src="/Order-Gifts.png"
+                    alt="GiftKakis Logo"
+                    fill
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
+                <Stack p="md" align="center" ta="center">
+                  <Text fz="lg" fw={500}>Build your own Hamper</Text>
+                  <Text c="dimmed">Only the best gifts from curated local vendors, build your own hamper and we'll deliver it.</Text>
+                </Stack>
               </Stack>
             </Paper>
-            <Paper p="md" radius="lg" withBorder>
+            <Paper p={0} radius="lg" withBorder style={{ overflow: 'hidden' }}>
               <Stack align="center" ta="center">
-                <Text fz="xl" fw={700}>🚚</Text>
-                <Text fz="lg" fw={500}>Islandwide Delivery</Text>
-                <Text c="dimmed">$8 Flat-fee delivery for all orders, no matter the distance</Text>
+                <div style={{ width: '100%', height: '200px', position: 'relative' }}>
+                  <Image
+                    src="/Order-Delivery.png"
+                    alt="GiftKakis Logo"
+                    fill
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
+                <Stack p="md" align="center" ta="center">
+                  <Text fz="lg" fw={500}>Islandwide Delivery</Text>
+                  <Text c="dimmed">$8 Flat-fee delivery for all orders, no matter the distance</Text>
+                </Stack>
               </Stack>
             </Paper>
-            <Paper p="md" radius="lg" withBorder>
+            <Paper p={0} radius="lg" withBorder style={{ overflow: 'hidden' }}>
               <Stack align="center" ta="center">
-                <Text fz="xl" fw={700}>📅</Text>
-                <Text fz="lg" fw={500}>Schedule Ahead</Text>
-                <Text c="dimmed">Plan and schedule deliveries in advance, no need to worry about last-minute delivery</Text>
+                <div style={{ width: '100%', height: '200px', position: 'relative' }}>
+                  <Image
+                    src="/Order-Schedule.png"
+                    alt="GiftKakis Logo"
+                    fill
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
+                <Stack p="md" align="center" ta="center">
+                  <Text fz="lg" fw={500}>Schedule Ahead</Text>
+                  <Text c="dimmed">Plan and schedule deliveries in advance, no need to worry about last-minute delivery</Text>
+                </Stack>
               </Stack>
             </Paper>
           </SimpleGrid>
