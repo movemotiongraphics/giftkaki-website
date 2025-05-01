@@ -202,7 +202,7 @@ export default function CategoryPage({ category, gifts }: CategoryPageProps) {
                       )}
 
                       {gift.leadTime && (
-                      <Text fz="xs" c="gray.6">If ordered on {new Date().toLocaleDateString('en-SG', { day: 'numeric', month: 'short', year: 'numeric' })}, expect gift by {new Date(Date.now() + gift.leadTime * 24 * 60 * 60 * 1000).toLocaleDateString('en-SG', { day: 'numeric', month: 'short', year: 'numeric' })}</Text>
+                      <Text fz="xs" c="gray.6">Order by {new Date().toLocaleDateString('en-SG', { day: 'numeric', month: 'short', year: 'numeric' })}, for {new Date(Date.now() + gift.leadTime * 24 * 60 * 60 * 1000).toLocaleDateString('en-SG', { day: 'numeric', month: 'short', year: 'numeric' })}</Text>
                       )}
                     </Stack>
                     <Text c="dimmed" lineClamp={2}>{gift.description}</Text>

@@ -31,7 +31,7 @@ const occasionData = {
   'anniversary': {
     title: "Anniversary Gift Delivery",
     description: "Celebrate your special day with meaningful gifts from Singapore's local artisans. Whether it's your first anniversary or your golden one, find unique gifts that reflect your journey together. From handcrafted keepsakes to gourmet hampers, each gift is carefully selected from Singapore's best local vendors. Make your anniversary memorable with our reliable delivery service. Start browsing anniversary gifts now!",
-    categories: ['Flowers', 'Cakes', 'Crafts'],
+    categories: ['Flowers', 'Cakes'],
     metaDescription: "Order anniversary gifts online in Singapore. Choose from flowers, cakes, and handcrafted items. Celebrate your love with unique gifts from local vendors.",
     keywords: "anniversary gifts, anniversary delivery singapore, flowers delivery singapore, gift delivery singapore"
   },
@@ -73,7 +73,7 @@ const occasionData = {
   'retirement': {
     title: "Retirement Gift Delivery",
     description: "Celebrate their next chapter with meaningful gifts from Singapore's local artisans. From handcrafted keepsakes to gourmet hampers, find the perfect retirement gift that reflects Singapore's appreciation for lifelong achievements. Each gift is carefully selected from local vendors who understand the significance of this milestone. Make their retirement celebration special with our reliable delivery service. Browse retirement gifts now!",
-    categories: ['Crafts', 'Tea', 'Food'],
+    categories: ['Cakes', 'Tea', 'Food'],
     metaDescription: "Order retirement gifts online in Singapore. Choose from handcrafted items, tea sets, and food hampers. Celebrate their achievements with gifts from local vendors.",
     keywords: "retirement gifts, retirement celebration gifts, gift delivery singapore"
   },
@@ -90,6 +90,13 @@ const occasionData = {
     categories: ['Beverages', 'Tea', 'Food'],
     metaDescription: "Order authentic Singapore souvenirs online. Choose from handcrafted items, local tea blends, and traditional snacks. Share Singapore's culture with gifts from local vendors.",
     keywords: "singapore souvenirs, singapore gifts, local souvenirs singapore, singapore craft gifts, singapore tea gifts"
+  },
+  'fathers-day': {
+    title: "Father's Day Gift Delivery",
+    description: "Celebrate Father's Day with thoughtful gifts from Singapore's local vendors. From artisanal food hampers to handcrafted items, find the perfect gift that shows your appreciation for dad. Each gift is carefully selected from local artisans who understand what makes a meaningful Father's Day present. Make this Father's Day special with our reliable delivery service across Singapore. Browse Father's Day gifts now!",
+    categories: ['Food', 'Beverages', 'Tea', 'Crafts'],
+    metaDescription: "Order Father's Day gifts online in Singapore. Choose from food hampers, beverages, and handcrafted items. Show your appreciation with gifts from local vendors.",
+    keywords: "father's day gifts, father's day delivery singapore, gift delivery singapore, father's day hampers, father's day food gifts"
   }
 };
 
@@ -210,7 +217,7 @@ export default function OccasionPage({ occasion, gifts }: OccasionPageProps) {
                       )}
 
                       {gift.leadTime && (
-                      <Text fz="xs" c="gray.6">If ordered on {new Date().toLocaleDateString('en-SG', { day: 'numeric', month: 'short', year: 'numeric' })}, expect gift by {new Date(Date.now() + gift.leadTime * 24 * 60 * 60 * 1000).toLocaleDateString('en-SG', { day: 'numeric', month: 'short', year: 'numeric' })}</Text>
+                      <Text fz="xs" c="gray.6">Order by {new Date().toLocaleDateString('en-SG', { day: 'numeric', month: 'short', year: 'numeric' })}, for {new Date(Date.now() + gift.leadTime * 24 * 60 * 60 * 1000).toLocaleDateString('en-SG', { day: 'numeric', month: 'short', year: 'numeric' })}</Text>
                       )}
                     </Stack>
                     <Text c="dimmed" lineClamp={2}>{gift.description}</Text>

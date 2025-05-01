@@ -27,8 +27,14 @@ const occasionData = {
   'mothers-day': {
     title: "Mother's Day Gift Delivery",
   },
+  'retirement': {
+    title: "Retirement Gift Delivery",
+  },
   'souvenir': {
     title: "Singapore Souvenir Gift Delivery",
+  },
+  'fathers-day': {
+    title: "Father's Day Gift Delivery",
   }
 };
 
@@ -62,6 +68,21 @@ const categoryData = {
   },
   'crafts': {
     title: "Handcrafted Gifts",
+  }
+};
+
+const nearMeData = {
+  'gifts': {
+    title: "Gifts Near Me",
+  },
+  'gift-shop': {
+    title: "Gifts Shops Near Me",
+  },
+  'food': {
+    title: "Home-Based Cafe Food Near Me",
+  },
+  'corporate': {
+    title: "Corporate Gifts Near Me",
   }
 };
 
@@ -106,6 +127,14 @@ export function Footer() {
           <Group m={0} p={0}>
             {Object.entries(categoryData).map(([key, value]) => (
               <Link key={key} href={`/home-based/${key}`} className={classes.link}>
+                {value.title}
+              </Link>
+            ))}
+          </Group>
+
+          <Group m={0} p={0}>
+            {Object.entries(nearMeData).map(([key, value]) => (
+              <Link key={key} href={`/near-me/${key}`} className={classes.link}>
                 {value.title}
               </Link>
             ))}
