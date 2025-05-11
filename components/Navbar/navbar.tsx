@@ -55,7 +55,7 @@ import {
             </Group>
             
               <a href="/about" className={classes.link}>
-                <Text size='md' fw={500}>About</Text>
+                <Text size='md' fw={500}>About Us</Text>
               </a>
               <a href="/contact" className={classes.link}>
                 <Text size='md' fw={500}>Contact</Text>
@@ -63,9 +63,8 @@ import {
               <a href="/vendor" className={classes.link}>
                 <Text size='md' mr={8} fw={500}>Vendors</Text>
               </a>
-              <a href="/mothers-day" className={classes.link}>
-                <Text size='md' mr={8} fw={500}>Mother's Day</Text>
-                <Badge color="pink" size="xs">Free Gift!</Badge>
+              <a href="/gift-assistant" className={classes.link}>
+                <Text size='md' mr={8} fw={500}>Gift Assistant</Text>
               </a>
             </Group>
   
@@ -106,10 +105,6 @@ import {
               </a>
               <a href="/vendor" className={classes.link}>
                 <Text size='xl' mr={8} fw={500}>Vendors</Text>
-              </a>
-              <a href="/mothers-day" className={classes.link}>
-                <Text size='xl' mr={8} fw={500}>Mother's Day</Text>
-                <Badge color="pink" size="xs">Free Gift!</Badge>
               </a>
             </Stack>
   
