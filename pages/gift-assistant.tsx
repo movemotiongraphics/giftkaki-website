@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import { IconCheck, IconGift, IconCalendar, IconUserCheck, IconBrandX } from '@tabler/icons-react';
 import PenguinLogo from '../public/PenguinOnly.svg'
-import DeliveryPenguin from '../public/deliveryPenguin.png'
+import DeliveryPenguin from '../public/deliveryPenguin-2.png'
 import Image from 'next/image';
 
 export default function GiftAssistant() {
