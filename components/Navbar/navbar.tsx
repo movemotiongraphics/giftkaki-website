@@ -63,6 +63,9 @@ import {
               <a href="/gift-assistant" className={classes.link}>
                 <Text size='md' mr={8} fw={500}>Gift Assistant</Text>
               </a>
+              <a href="/corporate-gifting" className={classes.link}>
+                <Text size='md' mr={8} fw={500}>Corporate Gifting</Text>
+              </a>
             </Group>
   
             <Group visibleFrom="sm">
@@ -99,6 +102,9 @@ import {
               </a>
               <a href="/vendor" className={classes.link}>
                 <Text size='xl' mr={8} fw={500}>Vendors</Text>
+              </a>
+              <a href="/corporate-gifting" className={classes.link}>
+                <Text size='xl' mr={8} fw={500}>Corporate Gifting</Text>
               </a>
             </Stack>
   
