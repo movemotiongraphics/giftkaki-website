@@ -34,7 +34,7 @@ export default function CorporateGifting() {
       </Head>
       <Navbar></Navbar>
 
-      <Container maw={1200}>
+      <Container maw={1000}>
         <Stack justify="center" my={48} align="center">
           {/* Hero Section */}
           <Stack gap={0}>
@@ -42,13 +42,13 @@ export default function CorporateGifting() {
             Elevate the quality of your corporate gifts with GiftKakis.
           </Title>
 
-          <Container fluid mt={48}>
+          <Container fluid mt={24}>
                 {/* Left: Vendor Images */}
-                <Box style={{ flex: 1 }} my={48}>
-                  <SimpleGrid cols={3} spacing="sm">
+                <Box style={{ flex: 1, justifyItems: 'center' }} my={48}>
+                  <SimpleGrid cols={3} w={450} spacing="sm">
                     {vendors.slice(0, 9).map((vendor, index) => (
                       <Paper key={vendor.id} p="xs" radius="md" ta="center" bg="gray.0">
-                        <div style={{ width: '60px', height: '60px', position: 'relative', margin: '0 auto' }}>
+                        <div style={{ width: '120px', height: '120px', position: 'relative', margin: '0 auto' }}>
                           {vendor.imageUrl ? (
                             <Image
                               src={vendor.imageUrl}
