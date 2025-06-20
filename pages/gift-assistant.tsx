@@ -37,7 +37,7 @@ export default function GiftAssistant() {
           </Container>
         </Stack>
 
-        <Button mb="xl" mt={48} component={Link} href="/about" size="md" radius="xl">
+        <Button mb="xl" mt={48} component={Link} href="https://forms.gle/TexUyaXiLDVyafkK9" size="md" radius="xl">
             Contact Us
         </Button>
 
