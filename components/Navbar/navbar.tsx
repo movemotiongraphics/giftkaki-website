@@ -57,9 +57,6 @@ import {
               <a href="/about" className={classes.link}>
                 <Text size='md' fw={500}>About Us</Text>
               </a>
-              <a href="/contact" className={classes.link}>
-                <Text size='md' fw={500}>Contact</Text>
-              </a>
               <a href="/vendor" className={classes.link}>
                 <Text size='md' mr={8} fw={500}>Vendors</Text>
               </a>
@@ -100,9 +97,6 @@ import {
               <a href="/about" className={classes.link}>
                 <Text size='xl' fw={500}>About</Text>
               </a>
-              <a href="/contact" className={classes.link}>
-                <Text size='xl' fw={500}>Contact</Text>
-              </a>
               <a href="/vendor" className={classes.link}>
                 <Text size='xl' mr={8} fw={500}>Vendors</Text>
               </a>
@@ -110,7 +104,7 @@ import {
   
   
             <Group justify="center" mt="xl" pb="xl" px="md">
-              <a href="https://gift-kakis.web.app"><Button disabled={true} size="lg" radius="xl" variant="default">Get the app</Button></a>
+              <a href="https://apps.apple.com/sg/app/giftkakis-plan-send-gifts/id6740709498"><Button size="lg" radius="xl" variant="default">Get the app</Button></a>
               <a href="https://gift-kakis.web.app"><Button size="lg" radius="xl" >Start Gifting</Button></a>
             </Group>
           </ScrollArea>

@@ -35,9 +35,9 @@ export function TitleCard() {
             Start Gifting on Web
           </Button>
           </a>
-          <a href="https://gift-kakis.web.app">
-          <Button disabled={true} variant="outline" size="lg" radius="xl">
-            Download our App <Badge ml="sm" variant="light" color="pink">Soon!</Badge>
+          <a href="https://apps.apple.com/sg/app/giftkakis-plan-send-gifts/id6740709498">
+          <Button variant="outline" size="lg" radius="xl">
+            Download our App
           </Button>
           </a>
         </Group>
